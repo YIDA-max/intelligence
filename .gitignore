@@ -1,0 +1,49 @@
+.DS_Store
+html-*.zip
+.cursor
+node_modules
+/dist
+dist.zip
+docker/dist
+.husky/errors
+/html
+/analysis
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+# .vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# lock
+package-lock.json
+yarn.lock
+# pnpm-lock.yaml
+
+# Auto-generated TypeScript declaration files
+auto-imports.d.ts
+components.d.ts
+
+# lint-staged 临时生成的 tsconfig 文件
+tsconfig.lint.temp.json
+tsconfig.vue-lint.temp.json
+
+.history
+html.rar
+# html*
+.kiro
+public/version.json
+components.d.ts
+.vscode/settings.json
