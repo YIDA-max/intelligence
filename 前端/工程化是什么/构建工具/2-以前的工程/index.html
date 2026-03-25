@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>以前的工程 - jQuery + axios 示例</title>
+		<!-- 典型“以前的工程”：通过 CDN 引入第三方库 -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/axios@1.7.7/dist/axios.min.js"></script>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="app">
+			<header class="app-header">
+				<h1>📦 订单列表（jQuery + axios 示例）</h1>
+				<p class="subtitle">
+					“以前的工程”常见技术栈：jQuery + axios + 手写 DOM
+				</p>
+			</header>
+
+			<section class="toolbar">
+				<div class="toolbar-left">
+					<button id="refreshBtn" class="btn primary">刷新数据</button>
+				</div>
+				<div class="toolbar-right">
+					<input
+						id="keywordInput"
+						type="text"
+						placeholder="按客户名称搜索..."
+						class="input"
+					/>
+					<button id="searchBtn" class="btn">搜索</button>
+				</div>
+			</section>
+
+			<section class="table-wrapper">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>订单号</th>
+							<th>客户</th>
+							<th>金额</th>
+							<th>状态</th>
+							<th>下单时间</th>
+						</tr>
+					</thead>
+					<tbody id="tableBody">
+						<!-- 数据行由 jQuery 动态插入 -->
+					</tbody>
+				</table>
+				<div id="emptyState" class="empty-state" style="display: none">
+					<p>暂无数据</p>
+				</div>
+			</section>
+
+			<section class="log-panel">
+				<h2>请求日志</h2>
+				<pre id="logOutput" class="log-output"></pre>
+			</section>
+		</div>
+
+		<script src="js/mock-api.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

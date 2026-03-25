@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>待办事项 - 传统前端项目示例</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>📝 我的待办事项</h1>
+				<p class="subtitle">传统前端开发方式示例（无构建工具）</p>
+			</header>
+
+			<div class="todo-form">
+				<input
+					type="text"
+					id="todoInput"
+					placeholder="输入待办事项，按回车添加..."
+					class="todo-input"
+				/>
+				<button id="addBtn" class="add-btn">添加</button>
+			</div>
+
+			<div class="filter-tabs">
+				<button class="filter-btn active" data-filter="all">全部</button>
+				<button class="filter-btn" data-filter="active">未完成</button>
+				<button class="filter-btn" data-filter="completed">已完成</button>
+			</div>
+
+			<ul id="todoList" class="todo-list">
+				<!-- 待办事项将动态插入这里 -->
+			</ul>
+
+			<div class="todo-footer">
+				<span id="todoCount">0 项待办</span>
+				<button id="clearCompleted" class="clear-btn">清除已完成</button>
+			</div>
+		</div>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
