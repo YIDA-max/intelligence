@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "i:all": "pnpm -r install",
+    "dev:all": "pnpm -r --parallel dev",
+    "build:all": "pnpm -r build",
+    "lint:all": "pnpm -r lint",
+    "test:all": "pnpm -r test"
   },
   "repository": {
     "type": "git",
@@ -16,6 +23,9 @@
     "url": "https://github.com/YIDA-max/intelligence/issues"
   },
   "homepage": "https://github.com/YIDA-max/intelligence#readme",
+  "pnpm": {
+    "overrides": {}
+  },
   "dependencies": {
     "prompts": "^2.4.2"
   }
