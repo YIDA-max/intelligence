@@ -1,0 +1,78 @@
+
+> qianyi-ui@5.8.0 lint D:\Ugit\qianyi-ui\apps\qianyi-erp
+> eslint src --ext .ts,.tsx && tsc --noEmit
+
+
+D:\Ugit\qianyi-ui\apps\qianyi-erp\src\componentsApi\SelectInputApi\types.ts
+  21:2  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+
+D:\Ugit\qianyi-ui\apps\qianyi-erp\src\componentsApi\shared\apiSelect.ts
+  21:3  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+  29:2  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+  33:2  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+
+D:\Ugit\qianyi-ui\apps\qianyi-erp\src\types\func.d.ts
+  2:10  error  'ComponentCustomProperties' is defined but never used  @typescript-eslint/no-unused-vars
+  2:10  error  'ComponentCustomProperties' is defined but never used  no-unused-vars
+
+D:\Ugit\qianyi-ui\apps\qianyi-erp\src\utils\curveLoader\types.ts
+  80:2  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+
+D:\Ugit\qianyi-ui\apps\qianyi-erp\src\utils\formatTime.ts
+   92:2   warning  Unexpected constant condition  no-constant-condition
+  116:14  warning  Unexpected constant condition  no-constant-condition
+
+D:\Ugit\qianyi-ui\apps\qianyi-erp\src\utils\getStyleSheets.ts
+  20:119  warning  Unnecessary escape character: \:  no-useless-escape
+  20:121  warning  Unnecessary escape character: \:  no-useless-escape
+  67:120  warning  Unnecessary escape character: \:  no-useless-escape
+  67:122  warning  Unnecessary escape character: \:  no-useless-escape
+
+D:\Ugit\qianyi-ui\apps\qianyi-erp\src\utils\other.ts
+  287:2  warning  Unreachable code  no-unreachable
+
+D:\Ugit\qianyi-ui\apps\qianyi-erp\src\utils\theme.ts
+  14:15  warning  Unnecessary escape character: \#  no-useless-escape
+  37:15  warning  Unnecessary escape character: \#  no-useless-escape
+  48:15  warning  Unnecessary escape character: \#  no-useless-escape
+
+D:\Ugit\qianyi-ui\apps\qianyi-erp\src\utils\toolsValidate.ts
+   57:19   warning  Unnecessary escape character: \-  no-useless-escape
+   71:18   warning  Unnecessary escape character: \.  no-useless-escape
+  241:42   warning  Unnecessary escape character: \.  no-useless-escape
+  241:82   warning  Unnecessary escape character: \.  no-useless-escape
+  241:102  warning  Unnecessary escape character: \.  no-useless-escape
+  241:125  warning  Unnecessary escape character: \.  no-useless-escape
+  258:33   warning  Unnecessary escape character: \.  no-useless-escape
+  260:41   warning  Unnecessary escape character: \.  no-useless-escape
+  260:64   warning  Unnecessary escape character: \.  no-useless-escape
+  262:41   warning  Unnecessary escape character: \.  no-useless-escape
+  262:81   warning  Unnecessary escape character: \.  no-useless-escape
+  262:101  warning  Unnecessary escape character: \.  no-useless-escape
+  262:124  warning  Unnecessary escape character: \.  no-useless-escape
+  293:14   warning  Unnecessary escape character: \[  no-useless-escape
+  293:39   warning  Unnecessary escape character: \[  no-useless-escape
+
+D:\Ugit\qianyi-ui\apps\qianyi-erp\src\views\customerService\workOrder\components\add-dialog\utils\index.ts
+  124:3  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+
+D:\Ugit\qianyi-ui\apps\qianyi-erp\src\views\flow\form\tools\utils\formValidate.ts
+    3:49  error  'proxy' is defined but never used  @typescript-eslint/no-unused-vars
+    3:49  error  'proxy' is defined but never used  no-unused-vars
+   57:55  error  'proxy' is defined but never used  @typescript-eslint/no-unused-vars
+   57:55  error  'proxy' is defined but never used  no-unused-vars
+   69:50  error  'proxy' is defined but never used  @typescript-eslint/no-unused-vars
+   69:50  error  'proxy' is defined but never used  no-unused-vars
+  170:50  error  'proxy' is defined but never used  @typescript-eslint/no-unused-vars
+  170:50  error  'proxy' is defined but never used  no-unused-vars
+  204:7   error  'keyList' is already defined       @typescript-eslint/no-redeclare
+  204:7   error  'keyList' is already defined       no-redeclare
+  217:48  error  'proxy' is defined but never used  @typescript-eslint/no-unused-vars
+  217:48  error  'proxy' is defined but never used  no-unused-vars
+
+D:\Ugit\qianyi-ui\apps\qianyi-erp\src\views\product\product-info\bundle\components\form-dialog\utils\sku-form-dialog.ts
+  107:4  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+
+✖ 46 problems (14 errors, 32 warnings)
+
+ ELIFECYCLE  Command failed with exit code 1.

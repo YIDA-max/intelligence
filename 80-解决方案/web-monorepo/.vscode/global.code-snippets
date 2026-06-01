@@ -1,0 +1,53 @@
+{
+	"import": {
+		// 代码片段名称：模块导入
+		"scope": "javascript,typescript", // 生效范围：该片段仅在 JavaScript 和 TypeScript 文件中可用
+		"prefix": "im", // 触发前缀：在编辑器中输入 `im` 后按 `Tab` 键即可触发此片段
+		"body": ["import { $2 } from '$1';"], // 生成的代码体
+		// 代码体详解：
+		// 这是一个单行数组，意味着只生成一行代码。
+		// `$1` 和 `$2` 是“制表位”(Tabstop)。代码插入后，光标首先定位在 `$1`（模块路径），
+		// 输入内容后按 `Tab` 键，光标会跳转到 `$2`（导入的变量名）。
+		"description": "Import a module" // 描述信息：在智能提示框中显示为“Import a module”
+	},
+	"export-all": {
+		// 代码片段名称：模块整体导出
+		"scope": "javascript,typescript", // 生效范围：JavaScript 和 TypeScript 文件
+		"prefix": "ex", // 触发前缀：输入 `ex`
+		"body": ["export * from '$1';"], // 生成的代码体
+		// 代码体详解：
+		// 生成一个 ES6 模块导出语句，导出指定模块的所有内容。
+		// 插入后，光标会直接定位在 `$1` 的位置，等待输入要导出的模块路径。
+		"description": "Export a module" // 描述信息：在智能提示框中显示为“Export a module”
+	},
+	"vue-script-setup": {
+		// 代码片段名称：Vue 3 脚本设置模板
+		"scope": "vue", // 生效范围：仅在 `.vue` 文件中生效
+		"prefix": "<sc", // 触发前缀：输入 `<sc`（通常是 `<script` 的缩写）
+		"body": [
+			// 生成的代码体，这是一个多行模板
+			"<script setup lang=\"ts\">", // 第1行: 使用 Vue 3 的 `<script setup>` 语法糖，并指定语言为 TypeScript
+			"const props = defineProps<{", // 第2行: 开始使用泛型定义组件的 props
+			"  modelValue?: boolean,", // 第3行: 定义了一个可选的 `modelValue` prop，类型为 boolean
+			"}>()", // 第4行: 结束 `defineProps` 的定义
+			"$1", // 第5行: **第一个制表位**。光标会停留在此处，方便你继续编写组件的响应式数据、计算属性等逻辑
+			"</script>", // 第6行: 关闭 script 标签
+			"", // 第7行: 一个空行，用于在模板中分隔 `<script>` 和 `<template>` 部分，使代码更清晰
+			"<template>", // 第8行: 开始模板部分
+			"  <div>", // 第9行: 一个根 `div` 元素
+			"    <slot/>", // 第10行: 内置一个默认插槽，允许父组件注入内容
+			"  </div>", // 第11行: 关闭根 `div`
+			"</template>" // 第12行: 关闭 template 标签
+		] // 注意：这个片段没有 `description` 属性，在提示框中将显示其名称 "vue-script-setup"
+	},
+	"vue-computed": {
+		// 代码片段名称：Vue 计算属性
+		"scope": "javascript,typescript,vue", // 生效范围：JS, TS 以及 Vue 文件（在 `<script>` 标签内生效）
+		"prefix": "com", // 触发前缀：输入 `com`
+		"body": ["computed(() => { $1 })"] // 生成的代码体
+		// 代码体详解：
+		// 生成一个 Vue 的 `computed` 函数的基本结构。
+		// 插入后，光标会首先定位在 `$1`，即箭头函数的函数体内，方便你直接输入计算逻辑。
+		// 注意：此片段同样没有 `description` 属性。
+	}
+}

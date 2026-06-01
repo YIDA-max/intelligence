@@ -1,0 +1,23 @@
+
+*.sh
+node_modules
+lib
+*.md
+*.scss
+*.woff
+*.ttf
+.vscode
+.idea
+dist
+mock
+public
+bin
+build
+config
+index.html
+src/assets
+# OpenCode 配置为 JSONC，当前项目的 ESLint 配置并未为 JSONC 做专门解析
+*.jsonc
+# 插件自动生成的类型文件
+components.d.ts
+tsconfig.vue-lint.temp.json

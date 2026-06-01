@@ -1,0 +1,20 @@
+{
+	"default": [
+		{
+			"role": "user",
+			"content": "检查我的代码"
+		},
+		{
+			"role": "assistant",
+			"content": "我来帮您检查代码！请提供您的代码片段，我可以帮您：\n\n**请告诉我：**\n1. 您的代码是什么语言？（Python、JavaScript、Java、C++等）\n2. 您遇到了什么问题？（错误信息、预期结果与实际结果的差异等）\n3. 或者您希望我检查代码的哪些方面？（逻辑、性能、安全性、代码风格等）\n\n**例如您可以这样提供：**\n```python\n# 这是我的Python代码\ndef calculate_sum(numbers):\n    total = 0\n    for num in numbers:\n        total += num\n    return total\n\n# 我想知道是否有更好的写法\n```\n\n**我可以帮您检查：**\n- 语法错误\n- 逻辑错误\n- 代码优化建议\n- 安全漏洞\n- 代码风格改进\n- 性能问题\n\n请把代码贴出来，我会仔细分析并给出建议！"
+		},
+		{
+			"role": "user",
+			"content": "关闭"
+		},
+		{
+			"role": "assistant",
+			"content": "好的，随时可以回来找我检查代码！祝您编程愉快！👨‍💻👩‍💻"
+		}
+	]
+}

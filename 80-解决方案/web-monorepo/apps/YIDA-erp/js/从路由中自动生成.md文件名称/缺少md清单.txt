@@ -1,0 +1,16 @@
+缺少.md清单
+总数: 13
+
+1. /admin/sysArea/index -> d:\Ugit\qianyi-ui\src\views\admin\sysArea -> 行政区划.md
+2. /feishuCallback/index -> d:\Ugit\qianyi-ui\src\views\feishuCallback -> 飞书消息回调.md
+3. /gen/create-table/index -> d:\Ugit\qianyi-ui\src\views\gen\create-table -> 数据表管理.md
+4. /materialFlow/firstMileLogistics/showInfo/index -> d:\Ugit\qianyi-ui\src\views\materialFlow\firstMileLogistics\showInfo -> 头程调拨详情.md
+5. /materialFlow/secondMileLogistics/showInfo/index -> d:\Ugit\qianyi-ui\src\views\materialFlow\secondMileLogistics\showInfo -> 二程调拨详情.md
+6. /warehouse/stockManage/stockAge/index -> d:\Ugit\qianyi-ui\src\views\warehouse\stockManage\stockAge -> 仓库库龄.md
+7. /warehouse/stockManage/companyAge/index -> d:\Ugit\qianyi-ui\src\views\warehouse\stockManage\companyAge -> 公司库龄.md
+8. /board/questionnaire/bedroomSurveyQuestionnaire/index -> d:\Ugit\qianyi-ui\src\views\board\questionnaire\bedroomSurveyQuestionnaire -> 卧式调查问卷.md
+9. /integrations/platformOverseasReceipt/platformCargoList/index -> d:\Ugit\qianyi-ui\src\views\integrations\platformOverseasReceipt\platformCargoList -> 平台仓货件单.md
+10. /integrations/logisticsCostIntegration/index -> d:\Ugit\qianyi-ui\src\views\integrations\logisticsCostIntegration -> 物流费用集成.md
+11. /integrations/logisticsCostIntegration/firstLogisticsEstimated/index -> d:\Ugit\qianyi-ui\src\views\integrations\logisticsCostIntegration\firstLogisticsEstimated -> 头程预估物流费用.md
+12. /integrations/logisticsCostIntegration/secondLogisticsEstimated/index -> d:\Ugit\qianyi-ui\src\views\integrations\logisticsCostIntegration\secondLogisticsEstimated -> 尾程预估物流费用.md
+13. /template/base/curd/index -> d:\Ugit\qianyi-ui\src\views\template\base\curd -> 模板文件.md

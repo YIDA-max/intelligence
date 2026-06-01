@@ -1,0 +1,123 @@
+<!--
+ * @Author: 朱寒松 3136271519@qq.com
+ * @Date: 2025-07-07 20:58:34
+ * @LastEditors: 朱寒松 3136271519@qq.com
+ * @LastEditTime: 2025-07-10 19:37:22
+ * @FilePath: \qianyi-ui\src\views\product\product-info\sku\components\msku-popover.vue
+ * @Description: 
+ * 
+ * Copyright (c) 2025 by ${git_name_email}, All Rights Reserved. 
+-->
+<template>
+	<div>
+		<el-popover placement="right" :width="500" trigger="hover">
+			<template #reference>
+				<el-icon><ArrowDown /></el-icon>
+			</template>
+
+			<!-- Tabs + Table 展示 -->
+			<div class="max-h-[400px] overflow-auto p-2">
+				<el-tabs v-model="activeTab" tab-position="top" class="sku-tabs">
+					<el-tab-pane
+						v-for="group in groupedData"
+						:key="group.name"
+						:label="group.name"
+						:name="group.name"
+					>
+						<el-table
+							:data="group.list"
+							border
+							size="small"
+							style="width: 100%"
+							:header-cell-style="{ background: '#f5f7fa', fontWeight: 'bold' }"
+							native-scrollbar
+						>
+							<el-table-column prop="mskuCode" label="MSKU" min-width="120" />
+							<el-table-column
+								prop="storeAndSiteText"
+								label="店铺/站点"
+								min-width="100"
+							/>
+							<el-table-column prop="remark" label="备注" min-width="160" />
+						</el-table>
+					</el-tab-pane>
+				</el-tabs>
+
+				<!-- 空数据提示 -->
+				<div
+					v-if="groupedData.length === 0"
+					class="text-sm text-center text-gray-400"
+				>
+					暂无平台数据
+				</div>
+			</div>
+		</el-popover>
+	</div>
+</template>
+
+<script setup lang="ts">
+import { ref } from 'vue';
+import { watch } from 'vue';
+type DataItem = {
+	platform: string;
+	[key: string]: any;
+};
+
+type GroupedItem = {
+	name: string;
+	list: DataItem[];
+};
+const props = defineProps({
+	tableData: {
+		type: Array,
+		default: () => [],
+	},
+});
+const groupedData = ref<GroupedItem[]>([]);
+const activeTab = ref('');
+watch(
+	() => groupedData.value,
+	(val) => {
+		if (val.length > 0) {
+			activeTab.value = val[0].name; // 默认激活第一个 tab
+		}
+	}
+);
+
+/**
+ * 根据 platform 分类，并转成数组形式（含 name 和 list）
+ * @param data 原始数据数组
+ * @returns 分组后的数组
+ */
+function groupByPlatformToArray(data: DataItem[]): GroupedItem[] {
+	const map = new Map<string, DataItem[]>();
+
+	for (const item of data) {
+		const key = item.platform || '未知平台';
+		if (!map.has(key)) {
+			map.set(key, []);
+		}
+		map.get(key)!.push(item);
+	}
+
+	return Array.from(map.entries()).map(([platform, items]) => ({
+		name: platform,
+		list: items,
+	}));
+}
+
+watch(
+	() => props.tableData,
+	(newVal) => {
+		if (newVal && newVal.length > 0) {
+			groupedData.value = groupByPlatformToArray(newVal as DataItem[]);
+		} else {
+			groupedData.value = [];
+		}
+	},
+
+	{ immediate: true }
+);
+</script>
+
+<style lang="less" scoped></style>

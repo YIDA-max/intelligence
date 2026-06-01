@@ -1,0 +1,55 @@
+###
+ # @Author: YIDA 3136271519@qq.com
+ # @Date: 2025-08-06 12:00:54
+ # @LastEditors: YIDA 3136271519@qq.com
+ # @LastEditTime: 2025-08-08 17:28:33
+ # @FilePath: \qianyi-ui\.husky\prepare-commit-msg
+ # @Description: 
+ # 
+ # Copyright (c) 2025 by ${git_name_email}, All Rights Reserved. 
+### 
+#!/usr/bin/env sh
+
+# 可选：存在才引 common.sh（避免不存在时报错）
+[ -f "$(dirname "$0")/common.sh" ] && . "$(dirname "$0")/common.sh"
+[ -f "$(dirname "$0")/op-log.sh" ] && . "$(dirname "$0")/op-log.sh"
+
+COMMIT_MSG_FILE="$1"
+SOURCE="${2-}"   # message/template/merge/squash/commit/cherry-pick/revert...
+SHA="${3-}"
+
+# merge 提交：记录 merge 上下文，保留原始行为（不改提交信息）
+case "$SOURCE" in
+  merge)
+    if command -v write_merge_meta_from_commit_msg >/dev/null 2>&1; then
+      write_merge_meta_from_commit_msg "$COMMIT_MSG_FILE"
+    fi
+    exit 0
+    ;;
+  squash) exit 0 ;;
+esac
+
+# 读原始提交信息
+ORIGINAL_MSG="$(sed -n '1,$p' "$COMMIT_MSG_FILE" 2>/dev/null || printf '')"
+
+# 获取分支名（detached HEAD 时给个兜底）
+BRANCH_NAME="$(git symbolic-ref --short -q HEAD 2>/dev/null || printf 'DETACHED')"
+
+# 获取作者名（为空也能继续）
+AUTHOR="$(git config --get user.name 2>/dev/null || printf '')"
+
+# 时间戳
+TIMESTAMP="$(date '+%Y-%m-%d %H:%M')"
+
+PREFIX="[$AUTHOR][$TIMESTAMP][$BRANCH_NAME]"
+
+# 如果已经包含当前分支标记，就不重复添加（用 -F 做“纯文本”匹配，避免正则陷阱）
+echo "$ORIGINAL_MSG" | grep -Fq "[$BRANCH_NAME]" || {
+  if [ -n "$ORIGINAL_MSG" ]; then
+    printf '%s %s\n' "$PREFIX" "$ORIGINAL_MSG" > "$COMMIT_MSG_FILE"
+  else
+    printf '%s\n' "$PREFIX" > "$COMMIT_MSG_FILE"
+  fi
+}
+
+exit 0

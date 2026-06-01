@@ -1,0 +1,136 @@
+// {
+// 	"$schema": "https://opencode.ai/config.json",
+
+// 	// 当前使用的模型名称。你的 provider 是 OpenAI 兼容接口，所以可以直接填 deepseek-chat。
+// 	"model": "deepseek-chat",
+
+// 	// 以 OpenAI 兼容方式接入 DeepSeek（从环境变量读取 API Key，避免把真实密钥写进仓库）。
+// 	"provider": {
+// 		"openai": {
+// 			"options": {
+// 				// 从环境变量读取：DEEPSEEK_API_KEY
+// 				"apiKey": "{env:DEEPSEEK_API_KEY}",
+// 				// DeepSeek OpenAI 兼容 base URL
+// 				"baseURL": "https://api.deepseek.com"
+// 			}
+// 		}
+// 	},
+
+// 	// 是否自动更新 OpenCode。false：不自动；"notify"：仅提示更新。
+// 	"autoupdate": true,
+
+// 	// opencode serve / opencode web 的服务端配置。
+// 	"server": {
+// 		// 监听端口
+// 		"port": 4096,
+// 		// 监听主机名。0.0.0.0 表示对外开放。
+// 		"hostname": "0.0.0.0",
+// 		// 是否启用 mDNS 服务发现
+// 		"mdns": true,
+// 		// mDNS 域名
+// 		"mdnsDomain": "myproject.local",
+// 		// 允许的额外 CORS 来源（示例）
+// 		"cors": ["http://localhost:5173"]
+// 	},
+
+// 	// 限制工具能力：更安全。你可以按需调整（例如允许 write，但仍建议对 bash 保持谨慎）。
+// 	"tools": {
+// 		"write": false,
+// 		"bash": false
+// 	},
+
+// 	// 主题名（空字符串表示使用默认/自动选择）。
+// 	"theme": "",
+
+// 	// 自定义代理（示例：代码审查代理）。
+// 	"agent": {
+// 		"code-reviewer": {
+// 			// 代理描述
+// 			"description": "Reviews code for best practices and potential issues",
+// 			// 该代理使用的模型
+// 			"model": "deepseek-chat",
+// 			// 给模型的提示词（可自行按团队习惯改）
+// 			"prompt": "You are a code reviewer. Focus on security, performance, and maintainability.",
+// 			// 该代理允许的工具能力（示例：只读/禁止写入）
+// 			"tools": {
+// 				"write": false,
+// 				"edit": false
+// 			}
+// 		}
+// 	},
+
+// 	// 未指定代理时的默认代理名称。一般建议用内置的 "plan" 或 "build"。
+// 	"default_agent": "plan",
+
+// 	// 会话分享策略：manual / auto / disabled
+// 	"share": "manual",
+
+// 	// 自定义命令（示例）。你也可以把模板换成适合你项目的常用任务。
+// 	"command": {
+// 		"test": {
+// 			"template": "Run the full test suite with coverage report and show any failures.\nFocus on the failing tests and suggest fixes.",
+// 			"description": "Run tests with coverage",
+// 			// 让命令使用哪个 agent/模型
+// 			"agent": "build",
+// 			"model": "deepseek-chat"
+// 		},
+// 		"component": {
+// 			"template": "Create a new React component named $ARGUMENTS with TypeScript support.\nInclude proper typing and basic structure.",
+// 			"description": "Create a new component"
+// 		}
+// 	},
+
+// 	// 快捷键映射。留空对象表示不自定义。
+// 	"keybinds": {},
+
+// 	// 格式化器配置：控制 prettier 是否禁用，以及自定义格式化命令。
+// 	"formatter": {
+// 		"prettier": {
+// 			// disabled: true 表示禁用默认 prettier 格式化
+// 			"disabled": false
+// 		},
+// 		"custom-prettier": {
+// 			"command": ["npx", "prettier", "--write", "$FILE"],
+// 			"environment": {
+// 				"NODE_ENV": "development"
+// 			},
+// 			"extensions": [".js", ".ts", ".jsx", ".tsx"]
+// 		}
+// 	},
+
+// 	// 权限控制：需要用户确认的工具操作（示例）。
+// 	"permission": {
+// 		"edit": "ask",
+// 		"bash": "ask"
+// 	},
+
+// 	// 上下文压缩策略（避免对话上下文过长）。
+// 	"compaction": {
+// 		"auto": true,
+// 		"prune": true,
+// 		// 预留 token 缓冲区
+// 		"reserved": 10000
+// 	},
+
+// 	// 文件监视器忽略规则：减少无关文件变更触发。
+// 	"watcher": {
+// 		"ignore": ["node_modules/**", "dist/**", ".git/**"]
+// 	},
+
+// 	// MCP 服务器配置入口（本示例不在此处额外配置）。
+// 	"mcp": {},
+
+// 	// 插件：从 npm 或本地加载插件。这里先留空更安全。
+// 	"plugin": [],
+
+// 	// 额外指令文件：会被注入到模型上下文（示例：用你仓库里的 AGENTS.md）。
+// 	"instructions": ["AGENTS.md"],
+
+// 	// 只启用 openai provider（示例：减少不必要 provider 自动加载）。
+// 	"enabled_providers": ["openai"],
+// 	"disabled_providers": [],
+
+// 	// 实验性功能占位（空对象表示不启用）。
+// 	"experimental": {}
+// }
+{}

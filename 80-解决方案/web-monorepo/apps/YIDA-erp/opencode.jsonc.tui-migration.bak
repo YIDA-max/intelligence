@@ -1,0 +1,119 @@
+{
+	"$schema": "https://opencode.ai/config.json",
+
+	// 你的模型（DeepSeek：OpenAI 兼容接口）
+	"model": "deepseek-chat",
+	"provider": {
+		"openai": {
+			"options": {
+				"apiKey": "{env:DEEPSEEK_API_KEY}",
+				"baseURL": "https://api.deepseek.com"
+			}
+		}
+	},
+
+	// 自动更新 OpenCode（可选：false / "notify"）
+	"autoupdate": true,
+
+	// 服务端配置（用于 opencode serve / opencode web）
+	"server": {
+		"port": 4096,
+		"hostname": "0.0.0.0",
+		"mdns": true,
+		"mdnsDomain": "myproject.local",
+		"cors": ["http://localhost:5173"]
+	},
+
+	// 限制工具能力（安全起见默认关闭写入/执行）
+	"tools": {
+		"write": false,
+		"bash": false
+	},
+
+	// 主题（留空表示自动/默认）
+	"theme": "",
+
+	// 自定义代理（示例）
+	"agent": {
+		"code-reviewer": {
+			"description": "Reviews code for best practices and potential issues",
+			"model": "deepseek-chat",
+			"prompt": "You are a code reviewer. Focus on security, performance, and maintainability.",
+			"tools": {
+				"write": false,
+				"edit": false
+			}
+		}
+	},
+
+	// 默认代理（建议使用内置的 plan/build）
+	"default_agent": "plan",
+
+	// 会话分享策略：manual / auto / disabled
+	"share": "manual",
+
+	// 自定义命令（示例）
+	"command": {
+		"test": {
+			"template": "Run the full test suite with coverage report and show any failures.\nFocus on the failing tests and suggest fixes.",
+			"description": "Run tests with coverage",
+			"agent": "build",
+			"model": "deepseek-chat"
+		},
+		"component": {
+			"template": "Create a new React component named $ARGUMENTS with TypeScript support.\nInclude proper typing and basic structure.",
+			"description": "Create a new component"
+		}
+	},
+
+	// 快捷键（示例：不自定义则保持空对象）
+	"keybinds": {},
+
+	// 格式化器配置
+	"formatter": {
+		"prettier": {
+			"disabled": false
+		},
+		"custom-prettier": {
+			"command": ["npx", "prettier", "--write", "$FILE"],
+			"environment": {
+				"NODE_ENV": "development"
+			},
+			"extensions": [".js", ".ts", ".jsx", ".tsx"]
+		}
+	},
+
+	// 权限控制：需要用户确认的工具操作
+	"permission": {
+		"edit": "ask",
+		"bash": "ask"
+	},
+
+	// 上下文压缩策略
+	"compaction": {
+		"auto": true,
+		"prune": true,
+		"reserved": 10000
+	},
+
+	// 文件监视器忽略规则
+	"watcher": {
+		"ignore": ["node_modules/**", "dist/**", ".git/**"]
+	},
+
+	// MCP 服务器（留空表示不额外配置；你也可以在这里加 mcp 相关配置）
+	"mcp": {},
+
+	// 插件（示例：不给则就不加载）
+	"plugin": [],
+
+	// 指令文件（示例：用你仓库已有的 AGENTS.md）
+	"instructions": ["AGENTS.md"],
+
+	// 禁用/启用提供商
+	"enabled_providers": ["openai"],
+	"disabled_providers": [],
+
+	// 实验性功能（占位）
+	"experimental": {}
+}

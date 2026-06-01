@@ -1,0 +1,144 @@
+# Cursor AI 编辑器规则配置
+# 项目：千易UI - PIGCLOUD微服务开发平台前端
+
+## 🧠 核心思想武装 (Powered by qiushi-skill)
+在执行任何任务前，AI 助手必须遵循以下逻辑：
+1. **实事求是**：拒绝先验假设。修改代码前必须先通过 `@Codebase` 或 `ls` 确认实际文件内容和依赖关系。
+2. **矛盾分析**：遇到 Bug 或重构需求，先调用 `/contradiction-analysis` 识别是接口定义（外部矛盾）还是逻辑实现（内部矛盾）。
+3. **调查研究**：涉及复杂业务逻辑改动，先执行 `/investigation-first`，梳理数据流向后再编码。
+4. **群众路线**：UI 交互必须符合用户习惯，严格执行 i18n 国际化，确保组件易用性。
+
+## 项目技术栈
+- Vue 3.4.15 (Composition API + script setup)
+- TypeScript 5.9.2
+- Element Plus 2.11.7 (UI 组件库)
+- Pinia 2.0.32 (状态管理)
+- Vue Router 4.x (路由管理)
+- Vite 4.x (构建工具)
+- Tailwind CSS 3.4.17 (样式框架)
+- Vue i18n 9.2.2 (国际化)
+
+## 代码规范要求
+
+### 通用规则
+- 使用 TypeScript 进行类型约束，避免使用 `any` 类型
+- 优先使用 Composition API 和 `<script setup>` 语法
+- 使用 2 空格缩进
+- 使用单引号而非双引号
+- 代码注释使用中文
+- 遵循 ESLint 和 Prettier 配置
+
+### Vue 组件规范
+- 组件文件名使用 PascalCase，如 `UserProfile.vue`
+- 使用 `<script setup lang="ts">` 语法糖
+- Props 定义使用 TypeScript 泛型：`defineProps<{ modelValue?: boolean }>()`
+- Emits 定义使用 TypeScript 泛型：`defineEmits<{ (e: 'update:modelValue', value: boolean): void }>()`
+- 响应式数据优先使用 `ref()` 和 `reactive()`
+- 计算属性使用 `computed()`
+- 生命周期使用组合式 API：`onMounted()`, `onUnmounted()` 等
+
+### 目录结构
+- `src/views/` - 页面级组件
+- `src/components/` - 通用组件
+- `src/hooks/` - 可复用的 Composition API 钩子
+- `src/stores/` - Pinia 状态管理
+- `src/api/` - API 请求封装
+- `src/utils/` - 工具函数
+- `src/types/` - TypeScript 类型定义
+- `src/i18n/` - 国际化翻译文件
+
+### Element Plus 使用规范
+- 优先使用 Element Plus 提供的组件
+- 组件引入使用自动导入（unplugin-auto-import）
+- 表单验证使用 Element Plus 的规则系统
+- 消息提示使用：`ElMessage`、`ElNotification`、`ElMessageBox`
+- 图标使用 `@element-plus/icons-vue`
+
+### 状态管理 (Pinia)
+- Store 文件命名：`useXxxStore.ts`
+- 使用 `defineStore` 定义 Store
+- 优先使用 Setup Store 语法（函数式）
+- 需要持久化的状态使用 `pinia-plugin-persist`
+
+### API 请求规范
+- 使用 axios 进行 HTTP 请求
+- 统一在 `src/api/` 目录下定义接口
+- 接口返回值需要定义 TypeScript 类型
+- 错误处理统一在拦截器中处理
+
+### 国际化 (i18n)
+- 翻译文件格式：`{locale}.ts`（如 `zh-cn.ts`, `en.ts`）
+- 使用嵌套键风格（nested）
+- 在模板中使用：`$t('key.path')`
+- 在 setup 中使用：`const { t } = useI18n()`
+
+### 样式规范
+- 优先使用 Tailwind CSS 工具类
+- 组件私有样式使用 `<style scoped>`
+- 全局样式定义在 `src/theme/` 目录
+- CSS 变量使用 Element Plus 的主题变量系统
+- 避免使用内联样式
+
+### TypeScript 类型定义
+- 接口命名使用 `I` 前缀：`interface IUserInfo {}`
+- 类型别名使用 PascalCase：`type UserRole = 'admin' | 'user'`
+- 枚举使用 PascalCase：`enum OrderStatus {}`
+- 优先使用 `interface` 而非 `type`（除非需要联合类型）
+
+### 性能优化
+- 列表渲染使用 `:key` 绑定唯一标识
+- 大列表考虑虚拟滚动
+- 组件懒加载：`const Component = defineAsyncComponent(() => import('./Component.vue'))`
+- 路由懒加载：`component: () => import('@/views/xxx.vue')`
+- 图片懒加载
+- 避免不必要的响应式转换
+
+### Git 提交规范
+- 使用 Commitizen 进行提交
+- 提交信息格式：`<type>(<scope>): <subject>`
+- type 类型：feat, fix, docs, style, refactor, test, chore
+- 示例：`feat(user): 添加用户管理页面`
+
+### 安全规范
+- 敏感信息存储在环境变量中
+- XSS 防护：避免 `v-html`，必要时进行清理
+- CSRF 防护：Token 机制
+- 路由权限控制：使用路由守卫
+
+## AI 助手指引
+
+### 生成代码时
+1. 严格遵循上述技术栈和代码规范
+2. 注释使用中文，变量和函数名使用英文
+3. 生成完整的类型定义
+4. 考虑代码的可维护性和可扩展性
+5. 遵循 DRY 原则（Don't Repeat Yourself）
+
+### 代码审查时
+1. 检查类型安全
+2. 检查是否符合 ESLint 规则
+3. 检查性能问题
+4. 检查安全隐患
+5. 提供优化建议
+
+### 问题解决时
+1. 优先查找 Element Plus 官方文档
+2. 考虑 Vue 3 的最佳实践
+3. 提供多个解决方案
+4. 说明各方案的优缺点
+
+## 禁止事项
+- ❌ 不使用 Vue 2 的 Options API
+- ❌ 不使用 `any` 类型（除非确实必要）
+- ❌ 不直接修改 props
+- ❌ 不在循环中使用 index 作为 key
+- ❌ 不使用已废弃的 API
+- ❌ 不绕过 ESLint 规则（使用 eslint-disable）
+- ❌ 不提交未格式化的代码
+
+## 额外说明
+- Node 版本要求：>= 20.0.0
+- 包管理器：使用 pnpm
+- 开发环境：Windows 10
+- 浏览器兼容：> 1%, last 2 versions, not dead
+

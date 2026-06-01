@@ -1,0 +1,19 @@
+version: '3'
+services:
+  qianyi-ui:
+    build:
+      context: .
+    restart: always
+    container_name: qianyi-ui
+    image: qianyi-ui
+    networks:
+      - spring_cloud_default
+    external_links:
+      - qianyi-gateway
+    ports:
+      - 80:80
+
+# 加入到后端网络， 默认为 qianyi_default  | docker network ls   查看
+networks:
+  spring_cloud_default:
+    external: true

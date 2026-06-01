@@ -1,0 +1,91 @@
+#!/usr/bin/env sh
+
+[ -f "$(dirname "$0")/common.sh" ] && . "$(dirname "$0")/common.sh"
+[ -f "$(dirname "$0")/op-log.sh" ] && . "$(dirname "$0")/op-log.sh"
+
+[ -n "$CI" ] && exit 0
+
+PATH="/usr/local/bin:$PATH"
+
+target_branch="$(git symbolic-ref --short -q HEAD 2>/dev/null || printf 'DETACHED')"
+head_sha="$(git rev-parse --verify HEAD 2>/dev/null || printf '')"
+orig_head="$(git rev-parse -q --verify ORIG_HEAD 2>/dev/null || printf '')"
+merge_head="$(git rev-parse -q --verify MERGE_HEAD 2>/dev/null || printf '')"
+
+source_branch=''
+if command -v read_merge_meta_value >/dev/null 2>&1; then
+	source_branch="$(read_merge_meta_value 'from_branch' 2>/dev/null || printf '')"
+fi
+
+# 策略1：非 FF merge 场景可通过 MERGE_HEAD 反推来源分支
+if [ -z "$source_branch" ] && [ -n "$merge_head" ]; then
+	source_branch="$(git for-each-ref --format='%(refname:short)' --contains "$merge_head" refs/heads refs/remotes 2>/dev/null \
+		| awk '!seen[$0]++' \
+		| sed '/^'"$target_branch"'$/d' \
+		| sed -n '1p')"
+fi
+
+# 策略2：pull/ff 场景优先使用当前分支 upstream（避免被历史 reflog 干扰）
+if [ -z "$source_branch" ]; then
+	source_branch="$(git rev-parse --abbrev-ref --symbolic-full-name '@{upstream}' 2>/dev/null || printf '')"
+fi
+
+# 策略3：从最近 reflog 中提取 merge 信息（作为兜底）
+if [ -z "$source_branch" ]; then
+	source_branch="$(git reflog -20 --pretty=%gs HEAD 2>/dev/null \
+		| awk '/^merge / { msg=$0; sub(/^merge /, "", msg); sub(/:.*/, "", msg); print msg; exit }')"
+fi
+
+# 策略4：通过 ORIG_HEAD/HEAD 差异推断来源分支（包含 HEAD 且不包含 ORIG_HEAD）
+if [ -z "$source_branch" ] && [ -n "$orig_head" ] && [ -n "$head_sha" ] && [ "$orig_head" != "$head_sha" ]; then
+	source_branch="$(git for-each-ref --format='%(refname:short)' --contains "$head_sha" --no-contains "$orig_head" refs/heads refs/remotes 2>/dev/null \
+		| awk '!seen[$0]++' \
+		| sed '/^'"$target_branch"'$/d' \
+		| sed -n '1p')"
+fi
+
+if [ -n "$source_branch" ] && command -v normalize_branch_name >/dev/null 2>&1; then
+	source_branch="$(normalize_branch_name "$source_branch")"
+fi
+
+[ -z "$source_branch" ] && source_branch='UNKNOWN'
+
+has_conflict='no'
+conflict_files=''
+if command -v read_merge_meta_value >/dev/null 2>&1; then
+	meta_conflict="$(read_merge_meta_value 'has_conflict' 2>/dev/null || printf '')"
+	if [ "$meta_conflict" = 'yes' ]; then
+		has_conflict='yes'
+		conflict_files="$(read_merge_meta_conflict_files 2>/dev/null || printf '')"
+	fi
+fi
+
+merged_commits=''
+if [ -n "$orig_head" ] && [ -n "$head_sha" ] && [ "$orig_head" != "$head_sha" ]; then
+	merged_commits="$(git log --pretty=format:'%h %s' "$orig_head..$head_sha" 2>/dev/null)"
+fi
+
+if [ -z "$merged_commits" ]; then
+	merged_commits='(未检测到新增提交，可能是已同步状态或仅触发了无变化合并)'
+else
+	merged_commits="$(printf '%s\n' "$merged_commits" | sed 's/^/- /')"
+fi
+
+if [ -z "$conflict_files" ]; then
+	conflict_files='(无)'
+else
+	conflict_files="$(printf '%s\n' "$conflict_files" | sed 's/^/- /')"
+fi
+
+append_operation_log 'MERGE' "合并方向: $source_branch -> $target_branch
+是否发生冲突: $has_conflict
+冲突文件:
+$conflict_files
+合并提交:
+$merged_commits"
+
+if command -v cleanup_merge_meta >/dev/null 2>&1; then
+	cleanup_merge_meta
+fi
+
+exit 0

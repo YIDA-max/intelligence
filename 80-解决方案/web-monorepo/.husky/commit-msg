@@ -1,0 +1,20 @@
+###
+ # @Author: YIDA 3136271519@qq.com
+ # @Date: 2025-07-29 17:26:52
+ # @LastEditors: YIDA 3136271519@qq.com
+ # @LastEditTime: 2025-08-08 10:55:34
+ # @FilePath: \qianyi-ui\.husky\commit-msg
+ # @Description: 
+ # 
+ # Copyright (c) 2025 by ${git_name_email}, All Rights Reserved. 
+### 
+#!/usr/bin/env sh
+PATH="/usr/local/bin:$PATH"
+
+COMMIT_MSG=$(cat "$1")
+
+if echo "$COMMIT_MSG" | grep -qE "^Merge (branch|pull request)"; then
+  exit 0
+fi
+
+pnpm exec commitlint --edit "$1"

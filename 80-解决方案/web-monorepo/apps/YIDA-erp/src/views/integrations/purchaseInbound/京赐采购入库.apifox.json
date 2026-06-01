@@ -1,0 +1,2095 @@
+{
+	"apifoxProject": "1.0.0",
+	"$schema": {
+		"app": "apifox",
+		"type": "project",
+		"version": "1.2.0"
+	},
+	"info": {
+		"name": "仟易ERP",
+		"description": "",
+		"mockRule": {
+			"rules": [],
+			"enableSystemRule": true
+		}
+	},
+	"projectSetting": {
+		"id": "6683123",
+		"auth": {},
+		"securityScheme": {},
+		"gateway": [],
+		"language": "zh-CN",
+		"apiStatuses": ["developing", "testing", "released", "deprecated"],
+		"mockSettings": {},
+		"preProcessors": [
+			{
+				"type": "commonScript",
+				"data": [618178],
+				"defaultEnable": true,
+				"enable": true,
+				"id": "tZt_wcuXm804QjPVz910E",
+				"executionTiming": "prerequest"
+			}
+		],
+		"postProcessors": [],
+		"advancedSettings": {
+			"enableJsonc": false,
+			"enableBigint": false,
+			"responseValidate": true,
+			"enableTestScenarioSetting": true,
+			"enableYAPICompatScript": false,
+			"isDefaultUrlEncoding": 2,
+			"publishedDocUrlRules": {
+				"defaultRule": "RESOURCE_KEY_ONLY",
+				"resourceKeyStandard": "NEW"
+			},
+			"responseValidateApiTest": false,
+			"folderShareExpandModeSettings": {
+				"expandId": [],
+				"mode": "AUTO"
+			}
+		},
+		"initialDisabledMockIds": [],
+		"servers": [
+			{
+				"id": "default",
+				"name": "默认服务",
+				"moduleId": 5690247
+			},
+			{
+				"id": "b9069ab6-cb90-4b48-a088-fc4c3a00c5df",
+				"name": "计划",
+				"moduleId": 5690247
+			},
+			{
+				"id": "1ac7bcfc-cae2-492f-8b36-894ba3a11192",
+				"name": "采购",
+				"moduleId": 5690247
+			},
+			{
+				"id": "c8417d4d-fb43-4537-be83-a99e6fd9f37c",
+				"name": "产品",
+				"moduleId": 5690247
+			},
+			{
+				"id": "37537f9c-be3e-48a7-95ad-16e7111d55a6",
+				"name": "销售",
+				"moduleId": 5690247
+			},
+			{
+				"id": "350f4594-9eaa-41aa-8b05-8ea2ad4b97e7",
+				"name": "订柜",
+				"moduleId": 5690247
+			},
+			{
+				"id": "e49c2095-aa8a-4836-99d5-617601e73ba0",
+				"name": "库存",
+				"moduleId": 5690247
+			},
+			{
+				"id": "6e01e4c9-7ead-42f8-bdda-8249dbbcd5ce",
+				"name": "warehouse",
+				"moduleId": 5690247
+			},
+			{
+				"id": "730960ce-d2e8-4de6-91d2-b0119881d87c",
+				"name": "upms",
+				"moduleId": 5690247
+			},
+			{
+				"id": "9865e63d-32dd-497b-9456-c2d5c9fd5b02",
+				"name": "FBM",
+				"moduleId": 5690247
+			},
+			{
+				"id": "79327f2f-3798-4d02-8fc4-ddb04170d029",
+				"name": "temu平台物流对接",
+				"moduleId": 5690247
+			},
+			{
+				"id": "be3812d3-ee1e-4937-8459-864f4cf98338",
+				"name": "4px",
+				"moduleId": 5690247
+			},
+			{
+				"id": "ebcf514d-6a16-4910-81a5-61c27fdf28ce",
+				"name": "订单",
+				"moduleId": 5690247
+			},
+			{
+				"id": "8817c9d7-8a12-4a9e-b5f6-15c6ac53a8f3",
+				"name": "财务",
+				"moduleId": 5690247
+			},
+			{
+				"id": "7082617",
+				"name": "默认服务",
+				"moduleId": 7082617
+			},
+			{
+				"id": "44db1c22-4cbf-48e9-97f7-ac96b803ca85",
+				"name": "集成",
+				"moduleId": 5690247
+			}
+		],
+		"cloudMock": {
+			"security": "free",
+			"enable": false,
+			"tokenKey": "apifoxToken"
+		}
+	},
+	"apiCollection": [
+		{
+			"name": "根目录",
+			"id": 59977528,
+			"auth": {},
+			"securityScheme": {},
+			"parentId": 0,
+			"serverId": "",
+			"description": "",
+			"identityPattern": {
+				"httpApi": {
+					"type": "methodAndPath",
+					"bodyType": "",
+					"fields": []
+				}
+			},
+			"shareSettings": {},
+			"visibility": "SHARED",
+			"moduleId": 5690247,
+			"preProcessors": [
+				{
+					"type": "commonScript",
+					"data": [618178],
+					"defaultEnable": true,
+					"enable": true,
+					"id": "tZt_wcuXm804QjPVz910E",
+					"executionTiming": "prerequest"
+				},
+				{
+					"id": "inheritProcessors",
+					"type": "inheritProcessors",
+					"data": {}
+				}
+			],
+			"postProcessors": [
+				{
+					"id": "inheritProcessors",
+					"type": "inheritProcessors",
+					"data": {}
+				}
+			],
+			"inheritPostProcessors": {},
+			"inheritPreProcessors": {},
+			"items": [
+				{
+					"name": "金蝶",
+					"id": 77647173,
+					"auth": {},
+					"securityScheme": {},
+					"parentId": 0,
+					"serverId": "44db1c22-4cbf-48e9-97f7-ac96b803ca85",
+					"description": "",
+					"identityPattern": {
+						"httpApi": {
+							"type": "inherit",
+							"bodyType": "",
+							"fields": []
+						}
+					},
+					"shareSettings": {},
+					"visibility": "INHERITED",
+					"moduleId": 5690247,
+					"preProcessors": [
+						{
+							"id": "inheritProcessors",
+							"type": "inheritProcessors",
+							"data": {}
+						}
+					],
+					"postProcessors": [
+						{
+							"id": "inheritProcessors",
+							"type": "inheritProcessors",
+							"data": {}
+						}
+					],
+					"inheritPostProcessors": {},
+					"inheritPreProcessors": {},
+					"items": [
+						{
+							"name": "订柜单金蝶单据",
+							"id": 79527048,
+							"auth": {},
+							"securityScheme": {},
+							"parentId": 77647173,
+							"serverId": "",
+							"description": "",
+							"identityPattern": {
+								"httpApi": {
+									"type": "inherit",
+									"bodyType": "",
+									"fields": []
+								}
+							},
+							"shareSettings": {},
+							"visibility": "INHERITED",
+							"moduleId": 5690247,
+							"preProcessors": [
+								{
+									"id": "inheritProcessors",
+									"type": "inheritProcessors",
+									"data": {}
+								}
+							],
+							"postProcessors": [
+								{
+									"id": "inheritProcessors",
+									"type": "inheritProcessors",
+									"data": {}
+								}
+							],
+							"inheritPostProcessors": {},
+							"inheritPreProcessors": {},
+							"items": [
+								{
+									"name": "分页查询订柜单金蝶单据",
+									"api": {
+										"id": "423826465",
+										"method": "get",
+										"path": "/orderContainerKingdee/page",
+										"parameters": {
+											"path": [],
+											"query": [
+												{
+													"name": "records[0].id",
+													"required": false,
+													"description": "表数据ID",
+													"type": "integer",
+													"schema": {
+														"type": "integer"
+													},
+													"id": "tBc9qqV0x1"
+												},
+												{
+													"name": "records[0].billNo",
+													"required": false,
+													"description": "集成单据编号",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "G3Knt4tMWl"
+												},
+												{
+													"name": "records[0].orderContainerNo",
+													"required": false,
+													"description": "订柜单号",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "46XyQuKA0b"
+												},
+												{
+													"name": "records[0].deliveryNo",
+													"required": false,
+													"description": "发货单号",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "5mnfwOJQeA"
+												},
+												{
+													"name": "records[0].skuCode",
+													"required": false,
+													"description": "SKU代码",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "GyuIHNc4KF"
+												},
+												{
+													"name": "records[0].skuName",
+													"required": false,
+													"description": "产品名称",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "uLwdKGlphh"
+												},
+												{
+													"name": "records[0].kingdeeMaterialCode",
+													"required": false,
+													"description": "金蝶物料编码",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "4ej1ltEdKB"
+												},
+												{
+													"name": "records[0].inboundQuantity",
+													"required": false,
+													"description": "入库数量",
+													"type": "integer",
+													"schema": {
+														"type": "integer"
+													},
+													"id": "i7EMGuhBIj"
+												},
+												{
+													"name": "records[0].inboundDate",
+													"required": false,
+													"description": "入库日期",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "0dTnkWeyCp"
+												},
+												{
+													"name": "records[0].qianyiWarehouseCode",
+													"required": false,
+													"description": "仟易仓库编码",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "nsQp1KP7O6"
+												},
+												{
+													"name": "records[0].qianyiWarehouseName",
+													"required": false,
+													"description": "仟易仓库名称",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "BAmhzpKWYe"
+												},
+												{
+													"name": "records[0].kingdeeInventoryOrgCode",
+													"required": false,
+													"description": "金蝶库存组织编码",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "6ftjg5VKkz"
+												},
+												{
+													"name": "records[0].kingdeeInventoryOrgName",
+													"required": false,
+													"description": "金蝶库存组织名称",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "RmaQoNPz0r"
+												},
+												{
+													"name": "records[0].createTime",
+													"required": false,
+													"description": "集成数据创建时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "2DWGUkMBfK"
+												},
+												{
+													"name": "records[0].generateKingdeeDocName",
+													"required": false,
+													"description": "金蝶单据名称",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "6gpwgk0hQm"
+												},
+												{
+													"name": "records[0].generateKingdeeDocNo",
+													"required": false,
+													"description": "金蝶单据编号",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "4cEqUPcK11"
+												},
+												{
+													"name": "records[0].generateKingdeeDocTime",
+													"required": false,
+													"description": "生成金蝶单据时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "C2d3po4rGi"
+												},
+												{
+													"name": "records[0].kingdeeDocCreateId",
+													"required": false,
+													"description": "金蝶单据创建人ID",
+													"type": "integer",
+													"schema": {
+														"type": "integer"
+													},
+													"id": "3LAyr81KhS"
+												},
+												{
+													"name": "records[0].kingdeeDocCreateName",
+													"required": false,
+													"description": "金蝶单据创建人",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "hI6A21qyZc"
+												},
+												{
+													"name": "records[0].pushErrorReason",
+													"required": false,
+													"description": "失败原因",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "gl5Kvzavof"
+												},
+												{
+													"name": "total",
+													"required": false,
+													"description": "",
+													"type": "integer",
+													"schema": {
+														"type": "integer",
+														"format": "int64"
+													},
+													"id": "s7WLbHqiUC"
+												},
+												{
+													"name": "size",
+													"required": false,
+													"description": "",
+													"type": "integer",
+													"schema": {
+														"type": "integer",
+														"format": "int64"
+													},
+													"id": "186nOmo2Ja"
+												},
+												{
+													"name": "current",
+													"required": false,
+													"description": "",
+													"type": "integer",
+													"schema": {
+														"type": "integer",
+														"format": "int64"
+													},
+													"id": "J6KtoAMaF1"
+												},
+												{
+													"name": "orders[0].column",
+													"required": false,
+													"description": "",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "zQKT4ghIie"
+												},
+												{
+													"name": "orders[0].asc",
+													"required": false,
+													"description": "",
+													"type": "boolean",
+													"schema": {
+														"type": "boolean"
+													},
+													"id": "TlJmhNrRCg"
+												},
+												{
+													"name": "optimizeCountSql",
+													"required": false,
+													"description": "",
+													"type": "boolean",
+													"schema": {
+														"type": "boolean"
+													},
+													"id": "kuICeg4Lym"
+												},
+												{
+													"name": "searchCount",
+													"required": false,
+													"description": "",
+													"type": "boolean",
+													"schema": {
+														"type": "boolean"
+													},
+													"id": "GzhAKtZWeH"
+												},
+												{
+													"name": "optimizeJoinOfCountSql",
+													"required": false,
+													"description": "",
+													"type": "boolean",
+													"schema": {
+														"type": "boolean"
+													},
+													"id": "YhWQrkZATQ"
+												},
+												{
+													"name": "maxLimit",
+													"required": false,
+													"description": "",
+													"type": "integer",
+													"schema": {
+														"type": "integer",
+														"format": "int64"
+													},
+													"id": "Kwe9r3g6lF"
+												},
+												{
+													"name": "countId",
+													"required": false,
+													"description": "",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "CypQwEeGET"
+												},
+												{
+													"name": "ids",
+													"required": false,
+													"description": "勾选的id列表",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "integer"
+														}
+													},
+													"id": "FenA7IcuH8"
+												},
+												{
+													"name": "orderContainerNos",
+													"required": false,
+													"description": "订柜单号列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "k1JtKuGZJq"
+												},
+												{
+													"name": "deliveryNos",
+													"required": false,
+													"description": "发货单号列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "GTBYMizIia"
+												},
+												{
+													"name": "skuCodes",
+													"required": false,
+													"description": "SKU代码列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "ouNSGvOUGb"
+												},
+												{
+													"name": "generateKingdeeDocNos",
+													"required": false,
+													"description": "金蝶单据编号列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "gysSSjHsLP"
+												},
+												{
+													"name": "kingdeeInventoryOrgCodes",
+													"required": false,
+													"description": "金蝶库存组织编码列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "IaUQdoA9TZ"
+												},
+												{
+													"name": "createIds",
+													"required": false,
+													"description": "金蝶单据创建人列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "integer"
+														}
+													},
+													"id": "KEUexfO3jB"
+												},
+												{
+													"name": "generateKingdeeDocTimeStart",
+													"required": false,
+													"description": "金蝶单据生成时间-开始时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "9EBgnaNGwM"
+												},
+												{
+													"name": "generateKingdeeDocTimeEnd",
+													"required": false,
+													"description": "金蝶单据生成时间-结束时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "HrxFLBL5ZN"
+												},
+												{
+													"name": "createTimeStart",
+													"required": false,
+													"description": "集成数据创建时间-开始时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "uJwu0Cx6DJ"
+												},
+												{
+													"name": "createTimeEnd",
+													"required": false,
+													"description": "集成数据创建时间-结束时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "LZGC308rPv"
+												}
+											],
+											"cookie": [],
+											"header": []
+										},
+										"auth": {},
+										"securityScheme": {},
+										"commonParameters": {},
+										"responses": [
+											{
+												"id": "155951501",
+												"code": 200,
+												"jsonSchema": {
+													"$ref": "#/definitions/251061710",
+													"description": "分页结果"
+												},
+												"itemSchema": {},
+												"contentType": "json"
+											}
+										],
+										"responseExamples": [
+											{
+												"name": "成功示例",
+												"data": "{\n  \"code\": 0,\n  \"msg\": \"\",\n  \"data\": {\n    \"records\": [\n      {\n        \"id\": 0,\n        \"billNo\": \"\",\n        \"orderContainerNo\": \"\",\n        \"deliveryNo\": \"\",\n        \"skuCode\": \"\",\n        \"skuName\": \"\",\n        \"kingdeeMaterialCode\": \"\",\n        \"inboundQuantity\": 0,\n        \"inboundDate\": \"\",\n        \"qianyiWarehouseCode\": \"\",\n        \"qianyiWarehouseName\": \"\",\n        \"kingdeeInventoryOrgCode\": \"\",\n        \"kingdeeInventoryOrgName\": \"\",\n        \"createTime\": \"\",\n        \"generateKingdeeDocName\": \"\",\n        \"generateKingdeeDocNo\": \"\",\n        \"generateKingdeeDocTime\": \"\",\n        \"kingdeeDocCreateId\": 0,\n        \"kingdeeDocCreateName\": \"\",\n        \"pushErrorReason\": \"\"\n      }\n    ],\n    \"total\": 0,\n    \"size\": 0,\n    \"current\": 0,\n    \"orders\": [\n      {\n        \"column\": \"\",\n        \"asc\": false\n      }\n    ],\n    \"optimizeCountSql\": false,\n    \"searchCount\": false,\n    \"optimizeJoinOfCountSql\": false,\n    \"maxLimit\": 0,\n    \"countId\": \"\"\n  }\n}",
+												"responseId": "155951501"
+											}
+										],
+										"requestBody": {
+											"type": "none",
+											"parameters": [],
+											"oasExtensions": ""
+										},
+										"description": "",
+										"tags": [],
+										"status": "released",
+										"serverId": "",
+										"operationId": "",
+										"sourceUrl": "",
+										"ordering": 6,
+										"cases": [],
+										"mocks": [],
+										"customApiFields": "{}",
+										"advancedSettings": {
+											"disabledSystemHeaders": {}
+										},
+										"mockScript": {},
+										"codeSamples": [],
+										"commonResponseStatus": {},
+										"responseChildren": [],
+										"visibility": "INHERITED",
+										"moduleId": 5690247,
+										"oasExtensions": "",
+										"type": "http",
+										"preProcessors": [],
+										"postProcessors": [],
+										"inheritPostProcessors": {},
+										"inheritPreProcessors": {}
+									}
+								},
+								{
+									"name": "导出订柜单金蝶单据",
+									"api": {
+										"id": "423826466",
+										"method": "get",
+										"path": "/orderContainerKingdee/export",
+										"parameters": {
+											"path": [],
+											"query": [
+												{
+													"name": "ids",
+													"required": false,
+													"description": "勾选的id列表",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "integer"
+														}
+													},
+													"id": "7wGH6c6IJ5"
+												},
+												{
+													"name": "orderContainerNos",
+													"required": false,
+													"description": "订柜单号列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "PY1CN3U92S"
+												},
+												{
+													"name": "deliveryNos",
+													"required": false,
+													"description": "发货单号列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "uXQJ2WHB84"
+												},
+												{
+													"name": "skuCodes",
+													"required": false,
+													"description": "SKU代码列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "WbNszOI7EX"
+												},
+												{
+													"name": "generateKingdeeDocNos",
+													"required": false,
+													"description": "金蝶单据编号列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "61H3stBmPD"
+												},
+												{
+													"name": "kingdeeInventoryOrgCodes",
+													"required": false,
+													"description": "金蝶库存组织编码列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "eKCFnIYoeZ"
+												},
+												{
+													"name": "createIds",
+													"required": false,
+													"description": "金蝶单据创建人列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "integer"
+														}
+													},
+													"id": "BPwLeOlp9b"
+												},
+												{
+													"name": "generateKingdeeDocTimeStart",
+													"required": false,
+													"description": "金蝶单据生成时间-开始时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "yjlMoPuNDR"
+												},
+												{
+													"name": "generateKingdeeDocTimeEnd",
+													"required": false,
+													"description": "金蝶单据生成时间-结束时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "Wxjdd16rBE"
+												},
+												{
+													"name": "createTimeStart",
+													"required": false,
+													"description": "集成数据创建时间-开始时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "RMbIDa62fT"
+												},
+												{
+													"name": "createTimeEnd",
+													"required": false,
+													"description": "集成数据创建时间-结束时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "30UUUpqRw8"
+												}
+											],
+											"cookie": [],
+											"header": []
+										},
+										"auth": {},
+										"securityScheme": {},
+										"commonParameters": {},
+										"responses": [
+											{
+												"id": "102910059",
+												"code": 200,
+												"jsonSchema": {
+													"type": "array",
+													"items": {
+														"$ref": "#/definitions/251061711",
+														"description": "订柜单金蝶单据导出VO"
+													},
+													"description": "导出数据列表"
+												},
+												"itemSchema": {},
+												"contentType": "json"
+											}
+										],
+										"responseExamples": [
+											{
+												"name": "成功示例",
+												"data": "[\n  {\n    \"billNo\": \"\",\n    \"orderContainerNo\": \"\",\n    \"deliveryNo\": \"\",\n    \"skuCode\": \"\",\n    \"skuName\": \"\",\n    \"kingdeeMaterialCode\": \"\",\n    \"inboundQuantity\": 0,\n    \"inboundDate\": \"\",\n    \"qianyiWarehouseCode\": \"\",\n    \"qianyiWarehouseName\": \"\",\n    \"kingdeeInventoryOrgCode\": \"\",\n    \"kingdeeInventoryOrgName\": \"\",\n    \"createTime\": \"\",\n    \"generateKingdeeDocName\": \"\",\n    \"generateKingdeeDocNo\": \"\",\n    \"generateKingdeeDocTime\": \"\",\n    \"kingdeeDocCreateId\": 0,\n    \"kingdeeDocCreateName\": \"\",\n    \"pushErrorReason\": \"\"\n  }\n]",
+												"responseId": "102910059"
+											}
+										],
+										"requestBody": {
+											"type": "none",
+											"parameters": [],
+											"oasExtensions": ""
+										},
+										"description": "",
+										"tags": [],
+										"status": "released",
+										"serverId": "",
+										"operationId": "",
+										"sourceUrl": "",
+										"ordering": 12,
+										"cases": [],
+										"mocks": [],
+										"customApiFields": "{}",
+										"advancedSettings": {
+											"disabledSystemHeaders": {}
+										},
+										"mockScript": {},
+										"codeSamples": [],
+										"commonResponseStatus": {},
+										"responseChildren": [],
+										"visibility": "INHERITED",
+										"moduleId": 5690247,
+										"oasExtensions": "",
+										"type": "http",
+										"preProcessors": [],
+										"postProcessors": [],
+										"inheritPostProcessors": {},
+										"inheritPreProcessors": {}
+									}
+								},
+								{
+									"name": "生成金蝶单据",
+									"api": {
+										"id": "423826467",
+										"method": "post",
+										"path": "/orderContainerKingdee/pushKingdee",
+										"parameters": {
+											"path": [],
+											"query": [
+												{
+													"name": "ids",
+													"required": false,
+													"description": "勾选的id列表",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "integer"
+														}
+													},
+													"id": "sMoEETbLtj"
+												},
+												{
+													"name": "orderContainerNos",
+													"required": false,
+													"description": "订柜单号列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "hdadCFXbXP"
+												},
+												{
+													"name": "deliveryNos",
+													"required": false,
+													"description": "发货单号列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "p3QFryvJYv"
+												},
+												{
+													"name": "skuCodes",
+													"required": false,
+													"description": "SKU代码列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "Ar1ieCzLBv"
+												},
+												{
+													"name": "generateKingdeeDocNos",
+													"required": false,
+													"description": "金蝶单据编号列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "OsAKidbujZ"
+												},
+												{
+													"name": "kingdeeInventoryOrgCodes",
+													"required": false,
+													"description": "金蝶库存组织编码列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"id": "IXf3uY07kY"
+												},
+												{
+													"name": "createIds",
+													"required": false,
+													"description": "金蝶单据创建人列表（多选）",
+													"type": "array",
+													"schema": {
+														"type": "array",
+														"items": {
+															"type": "integer"
+														}
+													},
+													"id": "mukyU2W2gA"
+												},
+												{
+													"name": "generateKingdeeDocTimeStart",
+													"required": false,
+													"description": "金蝶单据生成时间-开始时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "KgEaJLQgDT"
+												},
+												{
+													"name": "generateKingdeeDocTimeEnd",
+													"required": false,
+													"description": "金蝶单据生成时间-结束时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "XTjOXZcilL"
+												},
+												{
+													"name": "createTimeStart",
+													"required": false,
+													"description": "集成数据创建时间-开始时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "9rZjIrKWxT"
+												},
+												{
+													"name": "createTimeEnd",
+													"required": false,
+													"description": "集成数据创建时间-结束时间",
+													"type": "string",
+													"schema": {
+														"type": "string"
+													},
+													"id": "Fld4Ng9lgv"
+												}
+											],
+											"cookie": [],
+											"header": []
+										},
+										"auth": {},
+										"securityScheme": {},
+										"commonParameters": {},
+										"responses": [
+											{
+												"id": "197425811",
+												"code": 200,
+												"jsonSchema": {
+													"$ref": "#/definitions/191191113",
+													"description": "导出数据列表"
+												},
+												"itemSchema": {},
+												"contentType": "json"
+											}
+										],
+										"responseExamples": [
+											{
+												"name": "成功示例",
+												"data": "{\n  \"code\": 0,\n  \"msg\": \"\",\n  \"data\": {\n    \"totalCount\": 0,\n    \"successCount\": 0,\n    \"failCount\": 0,\n    \"failInfos\": [\n      \"\"\n    ],\n    \"isSync\": false,\n    \"taskId\": 0\n  }\n}",
+												"responseId": "197425811"
+											}
+										],
+										"requestBody": {
+											"type": "none",
+											"parameters": [],
+											"oasExtensions": ""
+										},
+										"description": "",
+										"tags": [],
+										"status": "released",
+										"serverId": "",
+										"operationId": "",
+										"sourceUrl": "",
+										"ordering": 18,
+										"cases": [],
+										"mocks": [],
+										"customApiFields": "{}",
+										"advancedSettings": {
+											"disabledSystemHeaders": {}
+										},
+										"mockScript": {},
+										"codeSamples": [],
+										"commonResponseStatus": {},
+										"responseChildren": [],
+										"visibility": "INHERITED",
+										"moduleId": 5690247,
+										"oasExtensions": "",
+										"type": "http",
+										"preProcessors": [],
+										"postProcessors": [],
+										"inheritPostProcessors": {},
+										"inheritPreProcessors": {}
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"socketCollection": [],
+	"docCollection": [],
+	"webSocketCollection": [],
+	"socketIOCollection": [],
+	"mcpClientCollection": [],
+	"responseCollection": [],
+	"schemaCollection": [
+		{
+			"id": 15084976,
+			"name": "根目录",
+			"visibility": "SHARED",
+			"moduleId": 5690247,
+			"items": [
+				{
+					"name": "RBatchResult",
+					"displayName": "",
+					"id": "#/definitions/191191113",
+					"description": "导出数据列表",
+					"schema": {
+						"jsonSchema": {
+							"type": "object",
+							"properties": {
+								"code": {
+									"type": "integer",
+									"description": "返回标记：成功标记=0，失败标记=1"
+								},
+								"msg": {
+									"type": "string",
+									"description": "返回信息"
+								},
+								"data": {
+									"$ref": "#/definitions/191191112",
+									"description": "数据"
+								}
+							},
+							"x-apifox-orders": ["code", "msg", "data"],
+							"description": "响应信息主体"
+						}
+					},
+					"visibility": "INHERITED",
+					"moduleId": 5690247
+				},
+				{
+					"name": "RPageOrderContainerKingdeeVO",
+					"displayName": "",
+					"id": "#/definitions/251061710",
+					"description": "分页结果",
+					"schema": {
+						"jsonSchema": {
+							"type": "object",
+							"properties": {
+								"code": {
+									"type": "integer",
+									"description": ""
+								},
+								"msg": {
+									"type": "string",
+									"description": ""
+								},
+								"data": {
+									"$ref": "#/definitions/251061709",
+									"description": ""
+								}
+							},
+							"x-apifox-orders": ["code", "msg", "data"]
+						}
+					},
+					"visibility": "INHERITED",
+					"moduleId": 5690247
+				},
+				{
+					"name": "OrderContainerKingdeeExportVO",
+					"displayName": "",
+					"id": "#/definitions/251061711",
+					"description": "订柜单金蝶单据导出VO",
+					"schema": {
+						"jsonSchema": {
+							"type": "object",
+							"properties": {
+								"billNo": {
+									"type": "string",
+									"description": "集成单据编号"
+								},
+								"orderContainerNo": {
+									"type": "string",
+									"description": "订柜单号"
+								},
+								"deliveryNo": {
+									"type": "string",
+									"description": "发货单号"
+								},
+								"skuCode": {
+									"type": "string",
+									"description": "SKU代码"
+								},
+								"skuName": {
+									"type": "string",
+									"description": "产品名称"
+								},
+								"kingdeeMaterialCode": {
+									"type": "string",
+									"description": "金蝶物料编码"
+								},
+								"inboundQuantity": {
+									"type": "integer",
+									"description": "入库数量"
+								},
+								"inboundDate": {
+									"type": "string",
+									"description": "入库日期",
+									"x-apifox-mock": "@datetime"
+								},
+								"qianyiWarehouseCode": {
+									"type": "string",
+									"description": "仟易仓库编码"
+								},
+								"qianyiWarehouseName": {
+									"type": "string",
+									"description": "仟易仓库名称"
+								},
+								"kingdeeInventoryOrgCode": {
+									"type": "string",
+									"description": "金蝶库存组织编码"
+								},
+								"kingdeeInventoryOrgName": {
+									"type": "string",
+									"description": "金蝶库存组织名称"
+								},
+								"createTime": {
+									"type": "string",
+									"description": "集成数据创建时间",
+									"x-apifox-mock": "@datetime"
+								},
+								"generateKingdeeDocName": {
+									"type": "string",
+									"description": "金蝶单据名称"
+								},
+								"generateKingdeeDocNo": {
+									"type": "string",
+									"description": "金蝶单据编号"
+								},
+								"generateKingdeeDocTime": {
+									"type": "string",
+									"description": "生成金蝶单据时间",
+									"x-apifox-mock": "@datetime"
+								},
+								"kingdeeDocCreateId": {
+									"type": "integer",
+									"description": "金蝶单据创建人ID"
+								},
+								"kingdeeDocCreateName": {
+									"type": "string",
+									"description": "金蝶单据创建人"
+								},
+								"pushErrorReason": {
+									"type": "string",
+									"description": "失败原因"
+								}
+							},
+							"x-apifox-orders": [
+								"billNo",
+								"orderContainerNo",
+								"deliveryNo",
+								"skuCode",
+								"skuName",
+								"kingdeeMaterialCode",
+								"inboundQuantity",
+								"inboundDate",
+								"qianyiWarehouseCode",
+								"qianyiWarehouseName",
+								"kingdeeInventoryOrgCode",
+								"kingdeeInventoryOrgName",
+								"createTime",
+								"generateKingdeeDocName",
+								"generateKingdeeDocNo",
+								"generateKingdeeDocTime",
+								"kingdeeDocCreateId",
+								"kingdeeDocCreateName",
+								"pushErrorReason"
+							]
+						}
+					},
+					"visibility": "INHERITED",
+					"moduleId": 5690247
+				},
+				{
+					"name": "BatchResult",
+					"displayName": "",
+					"id": "#/definitions/191191112",
+					"description": "com.merach.qianyi.common.core.bean.BatchResult",
+					"schema": {
+						"jsonSchema": {
+							"type": "object",
+							"properties": {
+								"totalCount": {
+									"type": "integer",
+									"description": "总数量"
+								},
+								"successCount": {
+									"type": "integer",
+									"description": "成功数量"
+								},
+								"failCount": {
+									"type": "integer",
+									"description": "失败数量"
+								},
+								"failInfos": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									},
+									"description": "失败详细信息"
+								},
+								"isSync": {
+									"type": "boolean",
+									"description": "是否同步操作"
+								},
+								"taskId": {
+									"type": "integer",
+									"description": "异步任务id"
+								}
+							},
+							"x-apifox-orders": [
+								"totalCount",
+								"successCount",
+								"failCount",
+								"failInfos",
+								"isSync",
+								"taskId"
+							],
+							"description": "批量操作返回对象"
+						}
+					},
+					"visibility": "INHERITED",
+					"moduleId": 5690247
+				},
+				{
+					"name": "PageOrderContainerKingdeeVO",
+					"displayName": "",
+					"id": "#/definitions/251061709",
+					"description": "",
+					"schema": {
+						"jsonSchema": {
+							"type": "object",
+							"properties": {
+								"records": {
+									"type": "array",
+									"items": {
+										"$ref": "#/definitions/251061708",
+										"description": "订柜单金蝶单据VO"
+									},
+									"description": ""
+								},
+								"total": {
+									"type": "integer",
+									"description": "",
+									"format": "int64"
+								},
+								"size": {
+									"type": "integer",
+									"description": "",
+									"format": "int64"
+								},
+								"current": {
+									"type": "integer",
+									"description": "",
+									"format": "int64"
+								},
+								"orders": {
+									"type": "array",
+									"items": {
+										"$ref": "#/definitions/187061334",
+										"description": "com.baomidou.mybatisplus.core.metadata.OrderItem"
+									},
+									"description": ""
+								},
+								"optimizeCountSql": {
+									"type": "boolean",
+									"description": ""
+								},
+								"searchCount": {
+									"type": "boolean",
+									"description": ""
+								},
+								"optimizeJoinOfCountSql": {
+									"type": "boolean",
+									"description": ""
+								},
+								"maxLimit": {
+									"type": "integer",
+									"description": "",
+									"format": "int64"
+								},
+								"countId": {
+									"type": "string",
+									"description": ""
+								}
+							},
+							"x-apifox-orders": [
+								"records",
+								"total",
+								"size",
+								"current",
+								"orders",
+								"optimizeCountSql",
+								"searchCount",
+								"optimizeJoinOfCountSql",
+								"maxLimit",
+								"countId"
+							]
+						}
+					},
+					"visibility": "INHERITED",
+					"moduleId": 5690247
+				},
+				{
+					"name": "OrderContainerKingdeeVO",
+					"displayName": "",
+					"id": "#/definitions/251061708",
+					"description": "订柜单金蝶单据VO",
+					"schema": {
+						"jsonSchema": {
+							"type": "object",
+							"properties": {
+								"id": {
+									"type": "integer",
+									"description": "表数据ID"
+								},
+								"billNo": {
+									"type": "string",
+									"description": "集成单据编号"
+								},
+								"orderContainerNo": {
+									"type": "string",
+									"description": "订柜单号"
+								},
+								"deliveryNo": {
+									"type": "string",
+									"description": "发货单号"
+								},
+								"skuCode": {
+									"type": "string",
+									"description": "SKU代码"
+								},
+								"skuName": {
+									"type": "string",
+									"description": "产品名称"
+								},
+								"kingdeeMaterialCode": {
+									"type": "string",
+									"description": "金蝶物料编码"
+								},
+								"inboundQuantity": {
+									"type": "integer",
+									"description": "入库数量"
+								},
+								"inboundDate": {
+									"type": "string",
+									"description": "入库日期",
+									"x-apifox-mock": "@datetime"
+								},
+								"qianyiWarehouseCode": {
+									"type": "string",
+									"description": "仟易仓库编码"
+								},
+								"qianyiWarehouseName": {
+									"type": "string",
+									"description": "仟易仓库名称"
+								},
+								"kingdeeInventoryOrgCode": {
+									"type": "string",
+									"description": "金蝶库存组织编码"
+								},
+								"kingdeeInventoryOrgName": {
+									"type": "string",
+									"description": "金蝶库存组织名称"
+								},
+								"createTime": {
+									"type": "string",
+									"description": "集成数据创建时间",
+									"x-apifox-mock": "@datetime"
+								},
+								"generateKingdeeDocName": {
+									"type": "string",
+									"description": "金蝶单据名称"
+								},
+								"generateKingdeeDocNo": {
+									"type": "string",
+									"description": "金蝶单据编号"
+								},
+								"generateKingdeeDocTime": {
+									"type": "string",
+									"description": "生成金蝶单据时间",
+									"x-apifox-mock": "@datetime"
+								},
+								"kingdeeDocCreateId": {
+									"type": "integer",
+									"description": "金蝶单据创建人ID"
+								},
+								"kingdeeDocCreateName": {
+									"type": "string",
+									"description": "金蝶单据创建人"
+								},
+								"pushErrorReason": {
+									"type": "string",
+									"description": "失败原因"
+								}
+							},
+							"x-apifox-orders": [
+								"id",
+								"billNo",
+								"orderContainerNo",
+								"deliveryNo",
+								"skuCode",
+								"skuName",
+								"kingdeeMaterialCode",
+								"inboundQuantity",
+								"inboundDate",
+								"qianyiWarehouseCode",
+								"qianyiWarehouseName",
+								"kingdeeInventoryOrgCode",
+								"kingdeeInventoryOrgName",
+								"createTime",
+								"generateKingdeeDocName",
+								"generateKingdeeDocNo",
+								"generateKingdeeDocTime",
+								"kingdeeDocCreateId",
+								"kingdeeDocCreateName",
+								"pushErrorReason"
+							]
+						}
+					},
+					"visibility": "INHERITED",
+					"moduleId": 5690247
+				},
+				{
+					"name": "OrderItem",
+					"displayName": "",
+					"id": "#/definitions/187061334",
+					"description": "com.baomidou.mybatisplus.core.metadata.OrderItem",
+					"schema": {
+						"jsonSchema": {
+							"type": "object",
+							"properties": {
+								"column": {
+									"type": "string",
+									"description": ""
+								},
+								"asc": {
+									"type": "boolean",
+									"description": ""
+								}
+							},
+							"x-apifox-orders": ["column", "asc"]
+						}
+					},
+					"visibility": "INHERITED",
+					"moduleId": 5690247
+				}
+			]
+		}
+	],
+	"securitySchemeCollection": [],
+	"oasComponentCollection": [],
+	"requestCollection": [
+		{
+			"name": "根目录",
+			"children": [],
+			"items": [
+				{
+					"id": 4564350,
+					"createdAt": "2026-03-02T11:21:28.000Z",
+					"updatedAt": "2026-03-04T05:42:05.000Z",
+					"name": "更新订单物流渠道",
+					"method": "post",
+					"path": "http://localhost:4110/platformLogistics/update",
+					"requestBody": {
+						"type": "application/json",
+						"parameters": [],
+						"jsonSchema": {
+							"type": "object",
+							"properties": {
+								"id": {
+									"type": "integer"
+								},
+								"providerId": {
+									"type": "integer"
+								},
+								"logisticsChannelCode": {
+									"type": "string"
+								},
+								"logisticsChannelName": {
+									"type": "string"
+								},
+								"status": {
+									"type": "integer"
+								},
+								"statusText": {
+									"type": "string"
+								},
+								"remark": {
+									"type": "string"
+								},
+								"mappingSaveList": {
+									"type": "array",
+									"items": {}
+								},
+								"remarks": {
+									"type": "string"
+								}
+							},
+							"required": [
+								"id",
+								"providerId",
+								"logisticsChannelCode",
+								"logisticsChannelName",
+								"status",
+								"statusText",
+								"remark",
+								"mappingSaveList",
+								"remarks"
+							]
+						},
+						"example": "{\"id\":38,\"providerId\":2,\"logisticsChannelCode\":\"123\",\"logisticsChannelName\":\"312\",\"status\":0,\"statusText\":\"停用\",\"remark\":\"\",\"mappingSaveList\":[],\"remarks\":\"222\"}",
+						"data": "{\"id\":38,\"providerId\":2,\"logisticsChannelCode\":\"123\",\"logisticsChannelName\":\"312\",\"status\":0,\"statusText\":\"停用\",\"remark\":\"\",\"mappingSaveList\":[],\"remarks\":\"222\"}"
+					},
+					"parameters": {
+						"header": [
+							{
+								"name": "Authorization",
+								"value": "Bearer 0c7c44cf-3375-4b5f-99e4-39df86965e18",
+								"sampleValue": "Bearer 0c7c44cf-3375-4b5f-99e4-39df86965e18",
+								"enable": true
+							},
+							{
+								"name": "Content-Type",
+								"value": "application/json",
+								"sampleValue": "application/json",
+								"enable": true
+							},
+							{
+								"name": "TENANT-ID",
+								"value": "1",
+								"sampleValue": "1",
+								"enable": true
+							},
+							{
+								"name": "Cookie",
+								"value": "tenantId=1; token=0c7c44cf-3375-4b5f-99e4-39df86965e18; refresh_token=eGIiDQsZcaE1gXx-qQrFLVd_EW7zyhW8aIykEEjsSGkpy_Q4lZ97MmtxRh-YXpaPh1morkmEGUj0ERqg_F6Tub5kwpRNRaCAaQAZCxk1au_O__sE_cUUtnrTNcPq6b63; JSESSIONID=ky_j3eTeXGvjgFxNrsbXk0tsZAMpcwqIBxNP7G7g",
+								"sampleValue": "tenantId=1; token=0c7c44cf-3375-4b5f-99e4-39df86965e18; refresh_token=eGIiDQsZcaE1gXx-qQrFLVd_EW7zyhW8aIykEEjsSGkpy_Q4lZ97MmtxRh-YXpaPh1morkmEGUj0ERqg_F6Tub5kwpRNRaCAaQAZCxk1au_O__sE_cUUtnrTNcPq6b63; JSESSIONID=ky_j3eTeXGvjgFxNrsbXk0tsZAMpcwqIBxNP7G7g",
+								"enable": true
+							}
+						]
+					},
+					"commonParameters": {
+						"query": [],
+						"body": [],
+						"header": [
+							{
+								"name": "Authorization",
+								"enable": true
+							}
+						],
+						"cookie": []
+					},
+					"preProcessors": [],
+					"postProcessors": [],
+					"auth": {},
+					"advancedSettings": {
+						"disabledSystemHeaders": {}
+					},
+					"folderId": 0,
+					"projectId": 6649992,
+					"creatorId": 3421156,
+					"editorId": 3421156
+				},
+				{
+					"id": 4564407,
+					"createdAt": "2026-03-02T11:27:06.000Z",
+					"updatedAt": "2026-03-02T11:27:06.000Z",
+					"name": "新增订单物流渠道",
+					"method": "post",
+					"path": "http://localhost:4110/platformLogistics/save",
+					"requestBody": {
+						"type": "application/json",
+						"jsonSchema": {
+							"type": "object",
+							"properties": {
+								"logisticsChannelCode": {
+									"type": "string"
+								},
+								"logisticsChannelName": {
+									"type": "string"
+								},
+								"remarks": {
+									"type": "string"
+								},
+								"status": {
+									"type": "integer"
+								},
+								"mappingSaveList": {
+									"type": "array",
+									"items": {}
+								},
+								"providerId": {
+									"type": "integer"
+								}
+							},
+							"required": [
+								"logisticsChannelCode",
+								"logisticsChannelName",
+								"remarks",
+								"status",
+								"mappingSaveList",
+								"providerId"
+							]
+						},
+						"example": "{\"logisticsChannelCode\":\"aaa\",\"logisticsChannelName\":\"aaa\",\"remarks\":\"111\",\"status\":1,\"mappingSaveList\":[],\"providerId\":2}",
+						"data": "{\"logisticsChannelCode\":\"aaa\",\"logisticsChannelName\":\"aaa\",\"remarks\":\"111\",\"status\":1,\"mappingSaveList\":[],\"providerId\":2}"
+					},
+					"parameters": {
+						"header": [
+							{
+								"name": "Authorization",
+								"value": "Bearer 0c7c44cf-3375-4b5f-99e4-39df86965e18",
+								"sampleValue": "Bearer 0c7c44cf-3375-4b5f-99e4-39df86965e18",
+								"enable": true
+							},
+							{
+								"name": "Content-Type",
+								"value": "application/json",
+								"sampleValue": "application/json",
+								"enable": true
+							},
+							{
+								"name": "TENANT-ID",
+								"value": "1",
+								"sampleValue": "1",
+								"enable": true
+							},
+							{
+								"name": "Cookie",
+								"value": "tenantId=1; token=0c7c44cf-3375-4b5f-99e4-39df86965e18; refresh_token=eGIiDQsZcaE1gXx-qQrFLVd_EW7zyhW8aIykEEjsSGkpy_Q4lZ97MmtxRh-YXpaPh1morkmEGUj0ERqg_F6Tub5kwpRNRaCAaQAZCxk1au_O__sE_cUUtnrTNcPq6b63; JSESSIONID=ky_j3eTeXGvjgFxNrsbXk0tsZAMpcwqIBxNP7G7g",
+								"sampleValue": "tenantId=1; token=0c7c44cf-3375-4b5f-99e4-39df86965e18; refresh_token=eGIiDQsZcaE1gXx-qQrFLVd_EW7zyhW8aIykEEjsSGkpy_Q4lZ97MmtxRh-YXpaPh1morkmEGUj0ERqg_F6Tub5kwpRNRaCAaQAZCxk1au_O__sE_cUUtnrTNcPq6b63; JSESSIONID=ky_j3eTeXGvjgFxNrsbXk0tsZAMpcwqIBxNP7G7g",
+								"enable": true
+							}
+						]
+					},
+					"commonParameters": {
+						"query": [],
+						"body": [],
+						"header": [
+							{
+								"name": "Authorization",
+								"enable": true
+							}
+						],
+						"cookie": []
+					},
+					"preProcessors": [],
+					"postProcessors": [],
+					"auth": {},
+					"advancedSettings": {},
+					"folderId": 0,
+					"projectId": 6649992,
+					"creatorId": 3421156,
+					"editorId": 3421156
+				}
+			]
+		}
+	],
+	"environments": [],
+	"commonScripts": [
+		{
+			"name": "登录授权",
+			"content": "// 定义发送登录接口请求方法\r\nfunction sendLoginRequest() {\r\n  const baseUrl = pm.globals.get(\"GATE_WAY\");\r\n  const username = pm.globals.get(\"LOGIN_USERNAME\");\r\n  const password = pm.globals.get(\"LOGIN_PASSWORD\");\r\n  \r\n  const clientId = \"qianyi\";\r\n  const clientSecret = \"qianyi\";\r\n  const credentials = `${clientId}:${clientSecret}`;\r\n  const encodedCredentials = Buffer.from(credentials).toString(\"base64\");\r\n\r\n  const loginRequest = {\r\n    url: baseUrl + \"/auth/oauth2/token\",\r\n    method: \"POST\",\r\n\theader: {\r\n        \"Content-Type\": \"application/x-www-form-urlencoded\",\r\n        //\"Authorization\": \"Basic \" + btoa(\"qianyi:qianyi\") // Base64 编码\r\n\t\t\"Authorization\": \"Basic \" + encodedCredentials // Base64 编码\r\n    },\r\n    body: {\r\n        mode: \"urlencoded\",\r\n        urlencoded: [\r\n            { key: \"grant_type\", value: \"password\" },\r\n            { key: \"username\", value: username },\r\n            { key: \"password\", value: password },\r\n            { key: \"scope\", value: \"server\" }\r\n        ]\r\n    }\r\n  };\r\n\r\n  pm.sendRequest(loginRequest, function(err, res) {\r\n    if (err) {\r\n      console.log(err);\r\n    } else {\r\n      const jsonData = res.json();\r\n      pm.environment.set(\"ACCESS_TOKEN\", jsonData.access_token);\r\n      pm.environment.set(\"ACCESS_TOKEN_EXPIRES\", jsonData.exp * 1000);\r\n    }\r\n  });\r\n}\r\n\r\nconst accessToken = pm.environment.get(\"ACCESS_TOKEN\");\r\nconst accessTokenExpires = pm.environment.get(\"ACCESS_TOKEN_EXPIRES\");\r\nif (!accessToken || (accessTokenExpires && accessTokenExpires <= Date.now())) {\r\n  sendLoginRequest();\r\n}",
+			"runMode": "independent",
+			"description": "根据全局配置的账号密码获取access_token",
+			"ordering": 10,
+			"stickyOrdering": 0,
+			"id": "618178"
+		}
+	],
+	"globalVariables": [
+		{
+			"id": "6649992",
+			"variables": [
+				{
+					"name": "GATE_WAY",
+					"value": "http://qianyi-gateway:9999",
+					"description": "",
+					"isBindInitial": true,
+					"initialValue": "http://qianyi-gateway:9999",
+					"isSync": true
+				},
+				{
+					"name": "LOGIN_USERNAME",
+					"value": "admin",
+					"description": "",
+					"isBindInitial": true,
+					"initialValue": "admin",
+					"isSync": true
+				},
+				{
+					"name": "LOGIN_PASSWORD",
+					"value": "QDYMNeEA",
+					"description": "",
+					"isBindInitial": true,
+					"initialValue": "QDYMNeEA",
+					"isSync": true
+				},
+				{
+					"name": "Authorization",
+					"value": "",
+					"description": "",
+					"isBindInitial": true,
+					"initialValue": "",
+					"isSync": true
+				}
+			]
+		}
+	],
+	"commonParameters": {
+		"id": 821893,
+		"createdAt": "2025-08-01T06:09:56.000Z",
+		"updatedAt": "2026-03-02T12:41:05.000Z",
+		"deletedAt": null,
+		"parameters": {
+			"header": [
+				{
+					"name": "Authorization",
+					"defaultEnable": true,
+					"type": "string",
+					"id": "5vE46zv3EZ",
+					"defaultValue": "Bearer {{ACCESS_TOKEN}}",
+					"schema": {
+						"type": "string",
+						"default": "Bearer {{ACCESS_TOKEN}}"
+					}
+				}
+			]
+		},
+		"projectId": 6649992,
+		"creatorId": 2953790,
+		"editorId": 3073606
+	},
+	"customFunctions": [],
+	"projectTestCaseCategories": [
+		{
+			"id": 89041,
+			"name": "正向",
+			"description": null
+		},
+		{
+			"id": 89042,
+			"name": "负向",
+			"description": null
+		},
+		{
+			"id": 89043,
+			"name": "边界值",
+			"description": null
+		},
+		{
+			"id": 89044,
+			"name": "安全性",
+			"description": null
+		},
+		{
+			"id": 89045,
+			"name": "其他",
+			"description": null
+		}
+	],
+	"projectTestCaseTags": [
+		{
+			"id": 633737,
+			"name": "仅传必要字段",
+			"description": "仅发送具有有效值的必填字段，省略所有可选字段，以测试最小有效请求。"
+		},
+		{
+			"id": 633738,
+			"name": "语义合法",
+			"description": "使用语法正确且在业务逻辑或域上下文中也有意义的值。"
+		},
+		{
+			"id": 633739,
+			"name": "覆盖枚举组合",
+			"description": "对所有枚举型参数，应用正交设计系统地构建参数及其枚举值的测试用例组合，专用于测试枚举覆盖率"
+		},
+		{
+			"id": 633740,
+			"name": "其他正向",
+			"description": "提供符合API规范的真实有效的输入，产生正确和预期的结果。"
+		},
+		{
+			"id": 633741,
+			"name": "缺失必填字段",
+			"description": "在请求主体或参数中省略一个或多个必需字段。"
+		},
+		{
+			"id": 633742,
+			"name": "无效值",
+			"description": "提供的值类型和格式正确，但在逻辑上对该字段无效。"
+		},
+		{
+			"id": 633743,
+			"name": "类型错误",
+			"description": "使用数据类型不正确的值，例如发送字符串而不是整数。"
+		},
+		{
+			"id": 633744,
+			"name": "格式错误",
+			"description": "以不正确的格式提供值，例如，错误的日期模式，格式错误的电子邮件地址。"
+		},
+		{
+			"id": 633745,
+			"name": "语义非法",
+			"description": "使用语法正确且格式正确的值，这些值在逻辑上不可能或违反域规则。"
+		},
+		{
+			"id": 633746,
+			"name": "其他负向",
+			"description": "提供无效或意外的输入，应触发错误处理或拒绝API。"
+		},
+		{
+			"id": 633747,
+			"name": "Null",
+			"description": "必须是 JSON 字面量 `null`（不是空的，也不是 \"null\"）。"
+		},
+		{
+			"id": 633748,
+			"name": "零值",
+			"description": "必须是数字字面值0。"
+		},
+		{
+			"id": 633749,
+			"name": "空值",
+			"description": "必须是\"\"。"
+		},
+		{
+			"id": 633750,
+			"name": "极大值",
+			"description": "Max/min值 - 为数字或日期字段提供精确的最小值和最大值。"
+		},
+		{
+			"id": 633751,
+			"name": "极小值",
+			"description": "Max/min值 - 为数字或日期字段提供精确的最小值和最大值。"
+		},
+		{
+			"id": 633752,
+			"name": "超出最大边界值",
+			"description": "过长/过短字符串 - 提供超出允许的最小或最大边界的值。"
+		},
+		{
+			"id": 633753,
+			"name": "超出最小边界值",
+			"description": "过长/过短字符串 - 提供超出允许的最小或最大边界的值。"
+		},
+		{
+			"id": 633754,
+			"name": "字符串过长",
+			"description": "超出范围的值 - 提供大于允许的最大长度或小于要求的最小长度的字符串。"
+		},
+		{
+			"id": 633755,
+			"name": "字符串过短",
+			"description": "超出范围的值 - 提供大于允许的最大长度或小于要求的最小长度的字符串。"
+		},
+		{
+			"id": 633756,
+			"name": "对象级别授权缺失",
+			"description": "对象级别授权缺失 - 用户在没有适当授权的情况下访问或操作数据对象。"
+		},
+		{
+			"id": 633757,
+			"name": "访问控制",
+			"description": "基于角色、权限或属性来限制用户能访问哪些资源、能执行哪些操作"
+		},
+		{
+			"id": 633758,
+			"name": "认证失败",
+			"description": "认证失败 - 认证薄弱、配置错误或被绕过，导致未授权访问。"
+		},
+		{
+			"id": 633759,
+			"name": "SQL注入",
+			"description": "在输入字段中插入恶意SQL代码，测试是否存在SQL注入漏洞。"
+		},
+		{
+			"id": 633760,
+			"name": "XSS注入",
+			"description": "注入JavaScript或HTML标签来测试跨站点脚本漏洞。"
+		},
+		{
+			"id": 633761,
+			"name": "模糊输入",
+			"description": "发送大型或随机生成的有效载荷，以测试输入的有效性和稳定性。"
+		},
+		{
+			"id": 633762,
+			"name": "命令行注入",
+			"description": "将shell命令插入输入以测试命令执行漏洞。"
+		},
+		{
+			"id": 633763,
+			"name": "JSON注入",
+			"description": "插入恶意或意外的JSON结构来测试解析和验证。"
+		},
+		{
+			"id": 633764,
+			"name": "NoSQL注入",
+			"description": "提供NoSQL特定的恶意查询或操作符来测试注入漏洞。"
+		},
+		{
+			"id": 633765,
+			"name": "其他",
+			"description": "其他未归属的测试用例。"
+		}
+	],
+	"projectAssociations": [],
+	"moduleSettings": [
+		{
+			"id": "5690247",
+			"name": "默认模块",
+			"description": "",
+			"moduleVariables": [],
+			"openApiInfo": {}
+		}
+	]
+}

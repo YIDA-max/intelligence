@@ -1,0 +1,113 @@
+const columns = [
+	{
+		type: 'checkbox',
+		width: 40,
+		fixed: 'left',
+		align: 'center',
+	},
+	{
+		title: '单号',
+		field: 'orderNo',
+		width: 300,
+		align: 'left',
+		showOverflow: false,
+	},
+	{
+		title: 'SKU+数量',
+		field: 'skuCnt',
+		width: 150,
+		align: 'left',
+	},
+	{
+		title: '平台',
+		field: 'shopPlatformName',
+		minWidth: 120,
+		align: 'left',
+	},
+	{
+		title: '店铺',
+		field: 'shopName',
+		minWidth: 180,
+		align: 'left',
+	},
+	{
+		title: '订单类型',
+		field: 'orderType',
+		width: 100,
+		align: 'left',
+	},
+	// {
+	// 	title: '发货方式',
+	// 	field: 'shippingMethod',
+	// 	width: 100,
+	// 	align: 'left',
+	// },
+	{
+		title: '发货仓库',
+		field: 'warehouseName',
+		width: 100,
+		align: 'left',
+	},
+	{
+		title: '物流类型',
+		field: 'logisticsType',
+		width: 100,
+		align: 'left',
+	},
+	{
+		title: '物流渠道',
+		field: 'logisticsChannelName',
+		width: 150,
+		align: 'left',
+	},
+	{
+		title: '跟踪号',
+		field: 'trackingNumber',
+		minWidth: 150,
+		align: 'left',
+	},
+	{
+		title: '发货国',
+		field: 'originCountry',
+		width: 100,
+		align: 'left',
+	},
+	{
+		title: '目的国',
+		field: 'destCountry',
+		width: 100,
+		align: 'left',
+	},
+	{
+		title: '订单时间',
+		field: 'createTime',
+		width: 220,
+		align: 'left',
+		sortable: true,
+		showOverflow: false,
+	},
+	{
+		title: '物流时间',
+		field: 'orderTime',
+		width: 220,
+		align: 'left',
+		sortable: true,
+		showOverflow: false,
+	},
+	{
+		title: '物流状态',
+		field: 'deliveryStatusDesc',
+		width: 120,
+		align: 'left',
+	},
+	{
+		title: '物流轨迹事件',
+		field: 'latestEvent',
+		width: 220,
+		align: 'left',
+		fixed: 'right',
+		showOverflow: false,
+	},
+];
+
+export { columns };

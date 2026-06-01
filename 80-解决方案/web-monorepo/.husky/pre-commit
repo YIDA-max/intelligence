@@ -1,0 +1,46 @@
+[ -f "$(dirname -- "$0")/common.sh" ] && . "$(dirname -- "$0")/common.sh"
+
+[ -n "$CI" ] && exit 0
+
+PATH="/usr/local/bin:$PATH"
+
+# 定义错误日志目录和文件名
+ERROR_DIR=".husky/errors"
+mkdir -p "$ERROR_DIR"
+LATEST_ERROR_FILE="$ERROR_DIR/pre-commit-latest.log"
+TIMESTAMP_ERROR_FILE="$ERROR_DIR/pre-commit-$(date +%s).log"
+
+# 只对相对于 HEAD 有变更的子包执行各自 package.json 内的 lint-staged
+pnpm exec turbo run lint-staged --concurrency=1 --filter="...[HEAD]" 2>&1 | tee "$TIMESTAMP_ERROR_FILE" "$LATEST_ERROR_FILE"
+EXIT_CODE=${PIPESTATUS[0]}
+
+# lint-staged 通过后，再执行前端 AI 审查（命中 high+ 将阻断提交）
+# 暂时禁用前端 AI 审查，等后续再说
+# if [ $EXIT_CODE -eq 0 ]; then
+#   pnpm run frontend:staged:review 2>&1 | tee -a "$TIMESTAMP_ERROR_FILE" "$LATEST_ERROR_FILE"
+#   EXIT_CODE=${PIPESTATUS[0]}
+# fi
+
+# 日志管理：只保留最新的 2 个
+keep_log_files() {
+  local log_dir="$1"
+  local max_files="$2"
+
+  # 使用 ls 按时间排序（最新的在前）
+  local log_files
+  log_files=$(ls -t "$log_dir"/pre-commit-*.log 2>/dev/null)
+
+  # 删除多余的日志，只保留前 $max_files 个
+  echo "$log_files" | tail -n +"$((max_files + 1))" | xargs -r rm -f
+}
+
+keep_log_files "$ERROR_DIR" 2
+
+# 如果有错误
+if [ $EXIT_CODE -ne 0 ]; then
+  echo "✖️ 代码检查失败，最新错误信息已保存到: $LATEST_ERROR_FILE" >&2
+  exit $EXIT_CODE
+else
+  [ -f "$TIMESTAMP_ERROR_FILE" ] && rm -f "$TIMESTAMP_ERROR_FILE"
+  exit 0
+fi

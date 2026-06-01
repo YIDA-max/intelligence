@@ -1,0 +1,3157 @@
+{
+	"generatedAt": "2026-04-23T07:38:47.061Z",
+	"baseUrl": "http://192.168.200.218:8889/api",
+	"stats": {
+		"totalMenus": 239,
+		"totalLocalDirectories": 236,
+		"totalIndexRoutes": 170,
+		"totalChineseIndexRoutes": 121,
+		"missingMdCount": 13
+	},
+	"localDirectories": [
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\openApi",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\system",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\system\\user",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\system\\menu",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\system\\role",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\system\\dept",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\system\\post",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\system\\tenant",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\logs",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\audit",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\log",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\dict",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\file",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\param",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\i18n",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\client",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\social",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\token",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\sensitive",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\sysArea",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\pay",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\pay\\cd",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\pay\\channel",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\pay\\order",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\pay\\trade",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\pay\\refund",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\pay\\record",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\app",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\appuser",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\approle",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\appsocial",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\appArticle\\form",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\appArticle",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\appArticleCategory",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\page",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\tabbar",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\mp",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-account",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-menu",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-account-fans",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-account-tag",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-auto-reply",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-material",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-fans-msg",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-statistics",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\daemon",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\tools",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\tools\\data\\cache",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\tools\\route",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\tools\\job-manage",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\tools\\data\\report",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\tools\\data\\jimu",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\tools\\message",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\flow",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\task",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\flow\\task\\pending",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\flow\\task\\started",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\flow\\task\\cc",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\flow\\task\\completed",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\flow\\list",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\flow\\create\\all",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\flow\\group",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\gen",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\feishuCallback",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\datasource",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\create-table",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\gener",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\table",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\design",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\metadata",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\field-type",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\template",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\group",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\product",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\product-info",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\product\\product-info\\sku",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\product\\product-info\\spu",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\product\\product-info\\bundle",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\base-info",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\product\\base-info\\brand",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\product\\base-info\\category",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\selfOrder",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\salesOrder",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\logisticsChannels",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderConfirmRule",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderInterceptRule",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderSplitRule",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderMergeRule",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderWarehouseRule",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderAuditRule",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderStandardRule",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderReceiptInformation",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\pushExceptionRule",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\amazonOrder",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\amazonOrder\\amazonReturnsOrder",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\tiktokOrder",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\tiktokOrder\\tiktokReturnsOrder",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\walmartOrder",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\walmartOrder\\walmartReturnsOrder",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\customerService",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\customerService\\workOrder",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\customerService\\orderSetting",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\customerService\\orderSetting\\tagSetting",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\demand",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\demandInfo",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\purchase\\demand",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\purchase",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\purchase\\order",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\purchase\\return",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\purchase\\supplierSku",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\mpc",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\mcp\\collectionPlan",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\mcp\\reviewPlan",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\track",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\track",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\providerCode",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\headerTracker",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\nextLogistics",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\shipTrajectory",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\firstLogistics",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\deliveryPlan",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\lclRecommend",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\freightForwarder",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\orderContainer",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\firstMileLogistics",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\secondMileLogistics",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\deliveryTimeAlertSettings",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\firstMileLogistics\\showInfo",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\secondMileLogistics\\showInfo",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\freightFlow\\platformWarehouseDiff",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\affairs",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\affairs\\customsInfo",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\customs",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\affairs\\customs\\clearance",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\affairs\\customs\\clearCustoms",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\stock",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stock",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\platformStock",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockRecord",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\transferInventoryReview",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockManage\\stockAge",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockManage\\companyAge",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockCentre",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse-info",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\warehouseInfo",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\spInventory",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\platformWarehouse",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\otherStock",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\otherStock\\outStock",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\otherStock\\enterStock",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\financial",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\other",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\financial\\other\\cost",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\questionnaire",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\questionnaire\\bedroomSurveyQuestionnaire",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\tiktok",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\tkbi",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\platformOrder",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\tkTalentCommission",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\dailySalesOrder",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\TKDataBoard",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\analysisQuestionnaire",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\liveStreamingByExperts",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\report\\general\\",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockManage\\fbtInventoryReport",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockManage\\wfsInventoryReport",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockManage\\fbaInventoryReport",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\shopify",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\shopifyDailySales",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\shopifySettlementBillReport",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\amazon",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\amazon\\payTheBill",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\amazon\\InventoryLedgerBill",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\amazon\\FBAOverdueBill",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\temu",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\temuSettleBill",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\walmart",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\walmart\\walmartSettleBill",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\walmart\\storageCharges",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\mcpbi",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\mcpbi\\inventoryTurnover",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\mcpbi\\salesBoard",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\baseAssociationConfig",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\purchaseOrgRelation",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\salesOrgRelation",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\inventoryOrgRelation",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\expenseItemRelation",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\productSkuRelation",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\currencyCorrespondenceRelation",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\internalSettlementOriginalCurrencyRule",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\internalSupplierOrgRelation",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\internalCustomerOrgRelation",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\supplierRelationTable",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\orderPromotion",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\shippingIntegration",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\shippingIntegration\\stockinGoods",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\shippingIntegration\\warehouseTransfer",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\shippingIntegration\\platformLoss",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\shippingIntegration\\overseasLoss",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\receivingIntegration",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\receivingIntegration\\overseasWarehouseGoodsReceipt",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\platformOverseasReceipt\\platformCargoList",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\receivingIntegration\\warehouseTransfer",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\purchaseInbound\\jingciPurchaseInbound",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\warehouseOperation\\inventoryAdjustment",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\warehouseOperation\\amazonRemove",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\warehouseOperation\\platformWarehouseInventory",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\deliveryReturn",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\billDataSync\\selfOrderSync",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\billDataSync\\deliverGoodsOrderSync",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\deliveryReturn\\selfOrderReturn",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\deliveryReturn\\platformReturn",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\logisticsCostIntegration",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\logisticsCostIntegration\\firstLogisticsEstimated",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\logisticsCostIntegration\\secondLogisticsEstimated",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\base",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\base\\entity",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\base\\supplier",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\base\\store",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\base\\exchangeRate",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\sales",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\sales\\salesPlan",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\toolView",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\toolView\\logisticsError",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\tiktok1",
+			"exists": false
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\tiktok\\cooperation",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\tiktok\\influencerInfo",
+			"exists": true
+		},
+		{
+			"dirPath": "d:\\Ugit\\qianyi-ui\\src\\views\\template\\base\\curd",
+			"exists": true
+		}
+	],
+	"indexRoutes": [
+		{
+			"id": 1100,
+			"name": "router.userManagement",
+			"path": "/admin/system/user/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\system\\user",
+			"expectedMdName": "router.userManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 1200,
+			"name": "router.menuManagement",
+			"path": "/admin/system/menu/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\system\\menu",
+			"expectedMdName": "router.menuManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 1300,
+			"name": "router.roleManagement",
+			"path": "/admin/system/role/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\system\\role",
+			"expectedMdName": "router.roleManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 1400,
+			"name": "router.departmentManagement",
+			"path": "/admin/system/dept/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\system\\dept",
+			"expectedMdName": "router.departmentManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 1600,
+			"name": "router.postManagement",
+			"path": "/admin/system/post/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\system\\post",
+			"expectedMdName": "router.postManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 1500,
+			"name": "router.tenantManagement",
+			"path": "/admin/system/tenant/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\system\\tenant",
+			"expectedMdName": "router.tenantManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 2103,
+			"name": "router.auditLog",
+			"path": "/admin/audit/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\audit",
+			"expectedMdName": "router.auditLog.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 2100,
+			"name": "router.operationLog",
+			"path": "/admin/log/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\log",
+			"expectedMdName": "router.operationLog.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 2200,
+			"name": "router.dictManagement",
+			"path": "/admin/dict/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\dict",
+			"expectedMdName": "router.dictManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 2906,
+			"name": "router.fileManagement",
+			"path": "/admin/file/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\file",
+			"expectedMdName": "router.fileManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 2210,
+			"name": "router.parameterManagement",
+			"path": "/admin/param/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\param",
+			"expectedMdName": "router.parameterManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 2900,
+			"name": "router.internationalizationManagement",
+			"path": "/admin/i18n/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\i18n",
+			"expectedMdName": "router.internationalizationManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 2400,
+			"name": "router.terminalManagement",
+			"path": "/admin/client/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\client",
+			"expectedMdName": "router.terminalManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 2500,
+			"name": "router.keyManagement",
+			"path": "/admin/social/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\social",
+			"expectedMdName": "router.keyManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 2600,
+			"name": "router.tokenManagement",
+			"path": "/admin/token/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\token",
+			"expectedMdName": "router.tokenManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 2920,
+			"name": "router.sensitiveWords",
+			"path": "/admin/sensitive/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\sensitive",
+			"expectedMdName": "router.sensitiveWords.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 2910,
+			"name": "行政区划",
+			"path": "/admin/sysArea/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\sysArea",
+			"expectedMdName": "行政区划.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 5001,
+			"name": "router.checkoutCounter",
+			"path": "/biz/pay/cd/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\pay\\cd",
+			"expectedMdName": "router.checkoutCounter.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 5002,
+			"name": "router.paymentChannel",
+			"path": "/biz/pay/channel/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\pay\\channel",
+			"expectedMdName": "router.paymentChannel.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 5008,
+			"name": "router.productOrder",
+			"path": "/biz/pay/order/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\pay\\order",
+			"expectedMdName": "router.productOrder.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 5026,
+			"name": "router.paymentOrder",
+			"path": "/biz/pay/trade/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\pay\\trade",
+			"expectedMdName": "router.paymentOrder.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 5020,
+			"name": "router.refundOrder",
+			"path": "/biz/pay/refund/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\pay\\refund",
+			"expectedMdName": "router.refundOrder.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 5014,
+			"name": "router.notificationRecord",
+			"path": "/biz/pay/record/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\pay\\record",
+			"expectedMdName": "router.notificationRecord.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 7100,
+			"name": "router.customerManagement",
+			"path": "/biz/app/appuser/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\appuser",
+			"expectedMdName": "router.customerManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 7200,
+			"name": "router.appRole",
+			"path": "/biz/app/approle/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\approle",
+			"expectedMdName": "router.appRole.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 7300,
+			"name": "router.appKey",
+			"path": "/biz/app/appsocial/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\appsocial",
+			"expectedMdName": "router.appKey.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 7400,
+			"name": "router.articleInformation",
+			"path": "/biz/app/appArticle/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\appArticle",
+			"expectedMdName": "router.articleInformation.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 7500,
+			"name": "router.articleCategory",
+			"path": "/biz/app/appArticleCategory/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\appArticleCategory",
+			"expectedMdName": "router.articleCategory.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 7700,
+			"name": "router.interfaceSettings",
+			"path": "/biz/app/page/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\page",
+			"expectedMdName": "router.interfaceSettings.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 7701,
+			"name": "router.bottomNavigation",
+			"path": "/biz/app/tabbar/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\app\\tabbar",
+			"expectedMdName": "router.bottomNavigation.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 3001,
+			"name": "router.accountManagement",
+			"path": "/biz/mp/wx-account/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-account",
+			"expectedMdName": "router.accountManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 3002,
+			"name": "router.menuSettings",
+			"path": "/biz/mp/wx-menu/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-menu",
+			"expectedMdName": "router.menuSettings.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 3006,
+			"name": "router.fanManagement",
+			"path": "/biz/mp/wx-account-fans/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-account-fans",
+			"expectedMdName": "router.fanManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 3010,
+			"name": "router.tagManagement",
+			"path": "/biz/mp/wx-account-tag/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-account-tag",
+			"expectedMdName": "router.tagManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 3018,
+			"name": "router.autoReply",
+			"path": "/biz/mp/wx-auto-reply/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-auto-reply",
+			"expectedMdName": "router.autoReply.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 3015,
+			"name": "router.mediaManagement",
+			"path": "/biz/mp/wx-material/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-material",
+			"expectedMdName": "router.mediaManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 3008,
+			"name": "router.messageManagement",
+			"path": "/biz/mp/wx-fans-msg/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-fans-msg",
+			"expectedMdName": "router.messageManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 3022,
+			"name": "router.operationalData",
+			"path": "/biz/mp/wx-statistics/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\biz\\mp\\wx-statistics",
+			"expectedMdName": "router.operationalData.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 9911,
+			"name": "router.route",
+			"path": "/tools/route/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\tools\\route",
+			"expectedMdName": "router.route.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 2800,
+			"name": "router.quartzManagement",
+			"path": "/tools/job-manage/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\tools\\job-manage",
+			"expectedMdName": "router.quartzManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 4010,
+			"name": "router.message",
+			"path": "/tools/message/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\tools\\message",
+			"expectedMdName": "router.message.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 6003,
+			"name": "rotuer. initiateProcess",
+			"path": "/flow/list/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\flow\\list",
+			"expectedMdName": "rotuer. initiateProcess.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 6001,
+			"name": "router.processManagement",
+			"path": "/flow/group/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\flow\\group",
+			"expectedMdName": "router.processManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 10251,
+			"name": "飞书消息回调",
+			"path": "/feishuCallback/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\feishuCallback",
+			"expectedMdName": "飞书消息回调.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 9005,
+			"name": "router.dataSourceManagement",
+			"path": "/gen/datasource/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\datasource",
+			"expectedMdName": "router.dataSourceManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 9070,
+			"name": "数据表管理",
+			"path": "/gen/create-table/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\create-table",
+			"expectedMdName": "数据表管理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 9007,
+			"name": "router.generatePages",
+			"path": "/gen/gener/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\gener",
+			"expectedMdName": "router.generatePages.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 2300,
+			"name": "router.codeGeneration",
+			"path": "/gen/table/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\table",
+			"expectedMdName": "router.codeGeneration.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 9006,
+			"name": "router.formDesign",
+			"path": "/gen/design/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\design",
+			"expectedMdName": "router.formDesign.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 9065,
+			"name": "router.fieldManagement",
+			"path": "/gen/field-type/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\field-type",
+			"expectedMdName": "router.fieldManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 9051,
+			"name": "router.templateManagement",
+			"path": "/gen/template/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\template",
+			"expectedMdName": "router.templateManagement.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 9059,
+			"name": "router.templateGroup",
+			"path": "/gen/group/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\group",
+			"expectedMdName": "router.templateGroup.md",
+			"isChineseMdName": false,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 9945,
+			"name": "SKU管理",
+			"path": "/product/product-info/sku/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\product\\product-info\\sku",
+			"expectedMdName": "SKU管理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["sku管理.md"]
+		},
+		{
+			"id": 9947,
+			"name": "SPU管理",
+			"path": "/product/product-info/spu/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\product\\product-info\\spu",
+			"expectedMdName": "SPU管理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["spu管理.md"]
+		},
+		{
+			"id": 9948,
+			"name": "捆绑产品",
+			"path": "/product/product-info/bundle/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\product\\product-info\\bundle",
+			"expectedMdName": "捆绑产品.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["捆绑管理.md"]
+		},
+		{
+			"id": 9935,
+			"name": "品牌管理",
+			"path": "/product/base-info/brand/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\product\\base-info\\brand",
+			"expectedMdName": "品牌管理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["品牌管理.md"]
+		},
+		{
+			"id": 9929,
+			"name": "类目管理",
+			"path": "/product/base-info/category/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\product\\base-info\\category",
+			"expectedMdName": "类目管理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["类别管理.md"]
+		},
+		{
+			"id": 10132,
+			"name": "自发货订单",
+			"path": "/fbm/selfOrder/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\selfOrder",
+			"expectedMdName": "自发货订单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["自发货.md"]
+		},
+		{
+			"id": 10187,
+			"name": "销售订单",
+			"path": "/fbm/salesOrder/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\salesOrder",
+			"expectedMdName": "销售订单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["销售订单.md"]
+		},
+		{
+			"id": 10227,
+			"name": "物流渠道",
+			"path": "/fbm/logisticsChannels/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\logisticsChannels",
+			"expectedMdName": "物流渠道.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["物流渠道.md"]
+		},
+		{
+			"id": 10233,
+			"name": "接单规则",
+			"path": "/fbm/orderRule/orderConfirmRule/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderConfirmRule",
+			"expectedMdName": "接单规则.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["接单规则.md"]
+		},
+		{
+			"id": 10404,
+			"name": "截单规则",
+			"path": "/fbm/orderRule/orderInterceptRule/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderInterceptRule",
+			"expectedMdName": "截单规则.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["截单规则.md"]
+		},
+		{
+			"id": 10234,
+			"name": "拆单规则",
+			"path": "/fbm/orderRule/orderSplitRule/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderSplitRule",
+			"expectedMdName": "拆单规则.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["拆单规则.md"]
+		},
+		{
+			"id": 10235,
+			"name": "合单规则",
+			"path": "/fbm/orderRule/orderMergeRule/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderMergeRule",
+			"expectedMdName": "合单规则.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["合单规则.md"]
+		},
+		{
+			"id": 10236,
+			"name": "仓库规则",
+			"path": "/fbm/orderRule/orderWarehouseRule/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderWarehouseRule",
+			"expectedMdName": "仓库规则.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["仓库规则.md"]
+		},
+		{
+			"id": 10237,
+			"name": "审核规则",
+			"path": "/fbm/orderRule/orderAuditRule/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderAuditRule",
+			"expectedMdName": "审核规则.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["审核规则.md"]
+		},
+		{
+			"id": 10238,
+			"name": "标发规则",
+			"path": "/fbm/orderRule/orderStandardRule/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderStandardRule",
+			"expectedMdName": "标发规则.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["标发规则.md"]
+		},
+		{
+			"id": 10239,
+			"name": "收件信息",
+			"path": "/fbm/orderRule/orderReceiptInformation/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\orderReceiptInformation",
+			"expectedMdName": "收件信息.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["收件信息.md"]
+		},
+		{
+			"id": 10934,
+			"name": "推单异常规则",
+			"path": "/fbm/orderRule/pushExceptionRule/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\orderRule\\pushExceptionRule",
+			"expectedMdName": "推单异常规则.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["推单异常规则.md"]
+		},
+		{
+			"id": 10886,
+			"name": "Amazon退货订单",
+			"path": "/fbm/amazonOrder/amazonReturnsOrder/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\amazonOrder\\amazonReturnsOrder",
+			"expectedMdName": "Amazon退货订单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["Amazon退货订单.md"]
+		},
+		{
+			"id": 10888,
+			"name": "Tiktok退货订单",
+			"path": "/fbm/tiktokOrder/tiktokReturnsOrder/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\tiktokOrder\\tiktokReturnsOrder",
+			"expectedMdName": "Tiktok退货订单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["Tiktok退货订单.md"]
+		},
+		{
+			"id": 10890,
+			"name": "Walmart退货订单",
+			"path": "/fbm/walmartOrder/walmartReturnsOrder/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\fbm\\walmartOrder\\walmartReturnsOrder",
+			"expectedMdName": "Walmart退货订单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["Walmart退货订单.md"]
+		},
+		{
+			"id": 10543,
+			"name": "客服工单",
+			"path": "/customerService/workOrder/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\customerService\\workOrder",
+			"expectedMdName": "客服工单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["客服工单.md"]
+		},
+		{
+			"id": 10561,
+			"name": "标签设置",
+			"path": "/customerService/orderSetting/tagSetting/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\customerService\\orderSetting\\tagSetting",
+			"expectedMdName": "标签设置.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["标签设置.md"]
+		},
+		{
+			"id": 9986,
+			"name": "需求计划",
+			"path": "/purchase/demand/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\purchase\\demand",
+			"expectedMdName": "需求计划.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["需求计划.md"]
+		},
+		{
+			"id": 9961,
+			"name": "采购订单",
+			"path": "/purchase/order/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\purchase\\order",
+			"expectedMdName": "采购订单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["采购订单.md"]
+		},
+		{
+			"id": 9962,
+			"name": "采购退货",
+			"path": "/purchase/return/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\purchase\\return",
+			"expectedMdName": "采购退货.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["采购退货单.md"]
+		},
+		{
+			"id": 9958,
+			"name": "供应商产品",
+			"path": "/purchase/supplierSku/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\purchase\\supplierSku",
+			"expectedMdName": "供应商产品.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["供应商产品.md"]
+		},
+		{
+			"id": 9970,
+			"name": "提货计划",
+			"path": "/mcp/collectionPlan/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\mcp\\collectionPlan",
+			"expectedMdName": "提货计划.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["提货计划.md"]
+		},
+		{
+			"id": 10459,
+			"name": "提货计划审核",
+			"path": "/mcp/reviewPlan/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\mcp\\reviewPlan",
+			"expectedMdName": "提货计划审核.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["提货计划审核.md"]
+		},
+		{
+			"id": 10121,
+			"name": "尾程追踪",
+			"path": "/materialFlow/track/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\track",
+			"expectedMdName": "尾程追踪.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["物流追踪.md"]
+		},
+		{
+			"id": 9960,
+			"name": "物流商代码配置表",
+			"path": "/materialFlow/providerCode/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\providerCode",
+			"expectedMdName": "物流商代码配置表.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["物流商代码配置表.md"]
+		},
+		{
+			"id": 10122,
+			"name": "头程追踪",
+			"path": "/materialFlow/headerTracker/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\headerTracker",
+			"expectedMdName": "头程追踪.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["头程追踪.md"]
+		},
+		{
+			"id": 10123,
+			"name": "二程跟踪",
+			"path": "/materialFlow/nextLogistics/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\nextLogistics",
+			"expectedMdName": "二程跟踪.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["二程追踪.md"]
+		},
+		{
+			"id": 10457,
+			"name": "船舶挂港&轨迹",
+			"path": "/materialFlow/shipTrajectory/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\shipTrajectory",
+			"expectedMdName": "船舶挂港&轨迹.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["README.md", "船舶挂港&轨迹.md"]
+		},
+		{
+			"id": 9987,
+			"name": "发货计划",
+			"path": "/materialFlow/deliveryPlan/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\deliveryPlan",
+			"expectedMdName": "发货计划.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["发货计划.md"]
+		},
+		{
+			"id": 10069,
+			"name": "拼柜推荐（海运）",
+			"path": "/materialFlow/lclRecommend/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\lclRecommend",
+			"expectedMdName": "拼柜推荐（海运）.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["推荐拼柜.md"]
+		},
+		{
+			"id": 10070,
+			"name": "货代管理",
+			"path": "/materialFlow/freightForwarder/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\freightForwarder",
+			"expectedMdName": "货代管理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["货代管理.md"]
+		},
+		{
+			"id": 10071,
+			"name": "订柜管理",
+			"path": "/materialFlow/orderContainer/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\orderContainer",
+			"expectedMdName": "订柜管理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["订柜管理.md"]
+		},
+		{
+			"id": 10072,
+			"name": "头程调拨",
+			"path": "/materialFlow/firstMileLogistics/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\firstMileLogistics",
+			"expectedMdName": "头程调拨.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["头程调拨.md"]
+		},
+		{
+			"id": 10073,
+			"name": "二程调拨",
+			"path": "/materialFlow/secondMileLogistics/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\secondMileLogistics",
+			"expectedMdName": "二程调拨.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["二程调拨.md"]
+		},
+		{
+			"id": 10502,
+			"name": "货件时效预警设置",
+			"path": "/materialFlow/deliveryTimeAlertSettings/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\deliveryTimeAlertSettings",
+			"expectedMdName": "货件时效预警设置.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["货件时效预警设置.md"]
+		},
+		{
+			"id": 10505,
+			"name": "头程调拨详情",
+			"path": "/materialFlow/firstMileLogistics/showInfo/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\firstMileLogistics\\showInfo",
+			"expectedMdName": "头程调拨详情.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 10510,
+			"name": "二程调拨详情",
+			"path": "/materialFlow/secondMileLogistics/showInfo/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\secondMileLogistics\\showInfo",
+			"expectedMdName": "二程调拨详情.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 10935,
+			"name": "平台仓收发差异表",
+			"path": "/materialFlow/freightFlow/platformWarehouseDiff/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\freightFlow\\platformWarehouseDiff",
+			"expectedMdName": "平台仓收发差异表.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["平台仓收发差异表.md", "接口对接标准流程.md"]
+		},
+		{
+			"id": 10017,
+			"name": "关务信息",
+			"path": "/affairs/customsInfo/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\affairs\\customsInfo",
+			"expectedMdName": "关务信息.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["sku关务信息.md"]
+		},
+		{
+			"id": 10129,
+			"name": "出口报关",
+			"path": "/affairs/customs/clearance/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\affairs\\customs\\clearance",
+			"expectedMdName": "出口报关.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["报关.md"]
+		},
+		{
+			"id": 10130,
+			"name": "清关",
+			"path": "/affairs/customs/clearCustoms/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\affairs\\customs\\clearCustoms",
+			"expectedMdName": "清关.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["清关.md"]
+		},
+		{
+			"id": 10124,
+			"name": "三方/自营仓库存",
+			"path": "/warehouse/stock/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stock",
+			"expectedMdName": "三方_自营仓库存.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["库存.md"]
+		},
+		{
+			"id": 10374,
+			"name": "平台仓库存",
+			"path": "/warehouse/platformStock/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\platformStock",
+			"expectedMdName": "平台仓库存.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["平台仓库存.md"]
+		},
+		{
+			"id": 10125,
+			"name": "库存流水",
+			"path": "/warehouse/stockRecord/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockRecord",
+			"expectedMdName": "库存流水.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["库存流水.md"]
+		},
+		{
+			"id": 10126,
+			"name": "转库存审核",
+			"path": "/warehouse/transferInventoryReview/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\transferInventoryReview",
+			"expectedMdName": "转库存审核.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["转库存审核.md"]
+		},
+		{
+			"id": 11022,
+			"name": "仓库库龄",
+			"path": "/warehouse/stockManage/stockAge/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockManage\\stockAge",
+			"expectedMdName": "仓库库龄.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 11025,
+			"name": "公司库龄",
+			"path": "/warehouse/stockManage/companyAge/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockManage\\companyAge",
+			"expectedMdName": "公司库龄.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 10405,
+			"name": "中央库存",
+			"path": "/warehouse/stockCentre/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockCentre",
+			"expectedMdName": "中央库存.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["中央库存.md"]
+		},
+		{
+			"id": 9952,
+			"name": "仓库列表",
+			"path": "/warehouse/warehouseInfo/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\warehouseInfo",
+			"expectedMdName": "仓库列表.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["仓库列表.md"]
+		},
+		{
+			"id": 9955,
+			"name": "三方仓库存报表",
+			"path": "/warehouse/spInventory/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\spInventory",
+			"expectedMdName": "三方仓库存报表.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["三方仓库存.md"]
+		},
+		{
+			"id": 10406,
+			"name": "平台仓库配置管理",
+			"path": "/warehouse/platformWarehouse/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\platformWarehouse",
+			"expectedMdName": "平台仓库配置管理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["平台仓库配置管理.md"]
+		},
+		{
+			"id": 10376,
+			"name": "其他出库",
+			"path": "/warehouse/otherStock/outStock/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\otherStock\\outStock",
+			"expectedMdName": "其他出库.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["其他出库.md"]
+		},
+		{
+			"id": 10377,
+			"name": "其他入库",
+			"path": "/warehouse/otherStock/enterStock/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\otherStock\\enterStock",
+			"expectedMdName": "其他入库.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["其他入库.md"]
+		},
+		{
+			"id": 10508,
+			"name": "商品成本",
+			"path": "/financial/other/cost/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\financial\\other\\cost",
+			"expectedMdName": "商品成本.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["商品成本.md"]
+		},
+		{
+			"id": 11066,
+			"name": "卧式调查问卷",
+			"path": "/board/questionnaire/bedroomSurveyQuestionnaire/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\questionnaire\\bedroomSurveyQuestionnaire",
+			"expectedMdName": "卧式调查问卷.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 10480,
+			"name": "数据分析看板",
+			"path": "/board/tkbi/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\tkbi",
+			"expectedMdName": "数据分析看板.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["Tiktok数据分析看板.md"]
+		},
+		{
+			"id": 10425,
+			"name": "平台订单明细表",
+			"path": "/board/platformOrder/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\platformOrder",
+			"expectedMdName": "平台订单明细表.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["平台订单明细.md"]
+		},
+		{
+			"id": 10426,
+			"name": "达人佣金",
+			"path": "/board/tkTalentCommission/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\tkTalentCommission",
+			"expectedMdName": "达人佣金.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["tk达人佣金.md"]
+		},
+		{
+			"id": 10427,
+			"name": "TK日销量报表",
+			"path": "/board/dailySalesOrder/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\dailySalesOrder",
+			"expectedMdName": "TK日销量报表.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["日销售订单.md"]
+		},
+		{
+			"id": 10537,
+			"name": "TK数据分析看板",
+			"path": "/board/TKDataBoard/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\TKDataBoard",
+			"expectedMdName": "TK数据分析看板.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["tk数据分析看板.md"]
+		},
+		{
+			"id": 10895,
+			"name": "调查问卷分析",
+			"path": "/board/analysisQuestionnaire/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\analysisQuestionnaire",
+			"expectedMdName": "调查问卷分析.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["调查问卷分析.md"]
+		},
+		{
+			"id": 10933,
+			"name": "达人视频直播",
+			"path": "/board/liveStreamingByExperts/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\liveStreamingByExperts",
+			"expectedMdName": "达人视频直播.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["达人视频直播.md"]
+		},
+		{
+			"id": 11048,
+			"name": "FBT进销存报表",
+			"path": "/warehouse/stockManage/fbtInventoryReport/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockManage\\fbtInventoryReport",
+			"expectedMdName": "FBT进销存报表.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["FBT进销存.md"]
+		},
+		{
+			"id": 10998,
+			"name": "WFS进销存报表",
+			"path": "/warehouse/stockManage/wfsInventoryReport/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockManage\\wfsInventoryReport",
+			"expectedMdName": "WFS进销存报表.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["WFS进销存.md"]
+		},
+		{
+			"id": 11054,
+			"name": "FBA进销存报表",
+			"path": "/warehouse/stockManage/fbaInventoryReport/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockManage\\fbaInventoryReport",
+			"expectedMdName": "FBA进销存报表.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["FBA进销存.md"]
+		},
+		{
+			"id": 10497,
+			"name": "Shopify日销量报表",
+			"path": "/board/shopifyDailySales/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\shopifyDailySales",
+			"expectedMdName": "Shopify日销量报表.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["Shopify日销量表报表.md"]
+		},
+		{
+			"id": 10511,
+			"name": "shopify结算账单报告",
+			"path": "/board/shopifySettlementBillReport/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\shopifySettlementBillReport",
+			"expectedMdName": "shopify结算账单报告.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["Shopify结算账单报表.md"]
+		},
+		{
+			"id": 10526,
+			"name": "Amazon结算账单",
+			"path": "/board/amazon/payTheBill/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\amazon\\payTheBill",
+			"expectedMdName": "Amazon结算账单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["结算账单.md"]
+		},
+		{
+			"id": 10514,
+			"name": "库存分类账单",
+			"path": "/board/amazon/InventoryLedgerBill/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\amazon\\InventoryLedgerBill",
+			"expectedMdName": "库存分类账单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["库存分类账单.md"]
+		},
+		{
+			"id": 10515,
+			"name": "FBA库龄",
+			"path": "/board/amazon/FBAOverdueBill/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\amazon\\FBAOverdueBill",
+			"expectedMdName": "FBA库龄.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["FBA库龄.md"]
+		},
+		{
+			"id": 10517,
+			"name": "Temu结算账单",
+			"path": "/board/temuSettleBill/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\temuSettleBill",
+			"expectedMdName": "Temu结算账单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["结算账单.md"]
+		},
+		{
+			"id": 10549,
+			"name": "Walmart结算账单",
+			"path": "/board/walmart/walmartSettleBill/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\walmart\\walmartSettleBill",
+			"expectedMdName": "Walmart结算账单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["沃尔玛结算账单.md"]
+		},
+		{
+			"id": 10550,
+			"name": "仓储费",
+			"path": "/board/walmart/storageCharges/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\walmart\\storageCharges",
+			"expectedMdName": "仓储费.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["仓储费.md"]
+		},
+		{
+			"id": 10931,
+			"name": "库存可售天数",
+			"path": "/board/mcpbi/inventoryTurnover/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\mcpbi\\inventoryTurnover",
+			"expectedMdName": "库存可售天数.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["库存周转.md"]
+		},
+		{
+			"id": 10932,
+			"name": "销售看板",
+			"path": "/board/mcpbi/salesBoard/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\mcpbi\\salesBoard",
+			"expectedMdName": "销售看板.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["销售看板.md"]
+		},
+		{
+			"id": 10678,
+			"name": "采购组织关系",
+			"path": "/integrations/baseAssociationConfig/purchaseOrgRelation/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\purchaseOrgRelation",
+			"expectedMdName": "采购组织关系.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["采购组织关系.md"]
+		},
+		{
+			"id": 10685,
+			"name": "销售组织关系",
+			"path": "/integrations/baseAssociationConfig/salesOrgRelation/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\salesOrgRelation",
+			"expectedMdName": "销售组织关系.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["销售组织关系.md"]
+		},
+		{
+			"id": 10692,
+			"name": "库存组织关系",
+			"path": "/integrations/baseAssociationConfig/inventoryOrgRelation/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\inventoryOrgRelation",
+			"expectedMdName": "库存组织关系.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["库存组织关系.md"]
+		},
+		{
+			"id": 10699,
+			"name": "费用项目关系",
+			"path": "/integrations/baseAssociationConfig/expenseItemRelation/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\expenseItemRelation",
+			"expectedMdName": "费用项目关系.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["费用项目关系.md"]
+		},
+		{
+			"id": 10706,
+			"name": "产品SKU关系",
+			"path": "/integrations/baseAssociationConfig/productSkuRelation/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\productSkuRelation",
+			"expectedMdName": "产品SKU关系.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["产品SKU关系.md"]
+		},
+		{
+			"id": 10713,
+			"name": "币种对应关系",
+			"path": "/integrations/baseAssociationConfig/currencyCorrespondenceRelation/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\currencyCorrespondenceRelation",
+			"expectedMdName": "币种对应关系.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["币种对照关系.md"]
+		},
+		{
+			"id": 10720,
+			"name": "内部结算原币规则",
+			"path": "/integrations/baseAssociationConfig/internalSettlementOriginalCurrencyRule/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\internalSettlementOriginalCurrencyRule",
+			"expectedMdName": "内部结算原币规则.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["内部结算原币规则.md"]
+		},
+		{
+			"id": 10727,
+			"name": "内部供应商组织关系",
+			"path": "/integrations/baseAssociationConfig/internalSupplierOrgRelation/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\internalSupplierOrgRelation",
+			"expectedMdName": "内部供应商组织关系.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["内部供应商与组织关系.md"]
+		},
+		{
+			"id": 10734,
+			"name": "内部客户组织关系",
+			"path": "/integrations/baseAssociationConfig/internalCustomerOrgRelation/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\internalCustomerOrgRelation",
+			"expectedMdName": "内部客户组织关系.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["内部客户与组织关系.md"]
+		},
+		{
+			"id": 10741,
+			"name": "供应商关系表",
+			"path": "/integrations/baseAssociationConfig/supplierRelationTable/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\supplierRelationTable",
+			"expectedMdName": "供应商关系表.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["供应商关系表.md"]
+		},
+		{
+			"id": 10748,
+			"name": "订单推送关系",
+			"path": "/integrations/baseAssociationConfig/orderPromotion/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\baseAssociationConfig\\orderPromotion",
+			"expectedMdName": "订单推送关系.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["订单推进关系.md"]
+		},
+		{
+			"id": 10818,
+			"name": "备货至海外仓/平台仓",
+			"path": "/integrations/shippingIntegration/stockinGoods/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\shippingIntegration\\stockinGoods",
+			"expectedMdName": "备货至海外仓_平台仓.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["备货至海外仓.md"]
+		},
+		{
+			"id": 10835,
+			"name": "仓间调拨-发货",
+			"path": "/integrations/shippingIntegration/warehouseTransfer/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\shippingIntegration\\warehouseTransfer",
+			"expectedMdName": "仓间调拨-发货.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["仓间调拨发货.md"]
+		},
+		{
+			"id": 10918,
+			"name": "平台仓途损",
+			"path": "/integrations/shippingIntegration/platformLoss/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\shippingIntegration\\platformLoss",
+			"expectedMdName": "平台仓途损.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["平台仓途损.md"]
+		},
+		{
+			"id": 10924,
+			"name": "海外仓途损",
+			"path": "/integrations/shippingIntegration/overseasLoss/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\shippingIntegration\\overseasLoss",
+			"expectedMdName": "海外仓途损.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["海外仓途损.md"]
+		},
+		{
+			"id": 10830,
+			"name": "海外仓收货",
+			"path": "/integrations/receivingIntegration/overseasWarehouseGoodsReceipt/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\receivingIntegration\\overseasWarehouseGoodsReceipt",
+			"expectedMdName": "海外仓收货.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["海外仓收货.md"]
+		},
+		{
+			"id": 10784,
+			"name": "平台仓货件单",
+			"path": "/integrations/platformOverseasReceipt/platformCargoList/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\platformOverseasReceipt\\platformCargoList",
+			"expectedMdName": "平台仓货件单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 10844,
+			"name": "仓间调拨-收货",
+			"path": "/integrations/receivingIntegration/warehouseTransfer/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\receivingIntegration\\warehouseTransfer",
+			"expectedMdName": "仓间调拨-收货.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["仓间调拨收货.md"]
+		},
+		{
+			"id": 10850,
+			"name": "京赐采购入库",
+			"path": "/integrations/purchaseInbound/jingciPurchaseInbound/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\purchaseInbound\\jingciPurchaseInbound",
+			"expectedMdName": "京赐采购入库.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["京赐采购入库.md"]
+		},
+		{
+			"id": 10872,
+			"name": "库内库存调整",
+			"path": "/integrations/warehouseOperation/inventoryAdjustment/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\warehouseOperation\\inventoryAdjustment",
+			"expectedMdName": "库内库存调整.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["库内库存调整.md"]
+		},
+		{
+			"id": 11002,
+			"name": "平台移除订单",
+			"path": "/integrations/warehouseOperation/amazonRemove/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\warehouseOperation\\amazonRemove",
+			"expectedMdName": "平台移除订单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["平台移除订单.md"]
+		},
+		{
+			"id": 11011,
+			"name": "平台仓盘点",
+			"path": "/integrations/warehouseOperation/platformWarehouseInventory/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\warehouseOperation\\platformWarehouseInventory",
+			"expectedMdName": "平台仓盘点.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["平台仓盘点.md"]
+		},
+		{
+			"id": 10804,
+			"name": "自发货订单同步",
+			"path": "/integrations/billDataSync/selfOrderSync/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\billDataSync\\selfOrderSync",
+			"expectedMdName": "自发货订单同步.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["自发货订单.md"]
+		},
+		{
+			"id": 10811,
+			"name": "平台发货订单同步",
+			"path": "/integrations/billDataSync/deliverGoodsOrderSync/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\billDataSync\\deliverGoodsOrderSync",
+			"expectedMdName": "平台发货订单同步.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["平台发货订单.md"]
+		},
+		{
+			"id": 10903,
+			"name": "自发货退货",
+			"path": "/integrations/deliveryReturn/selfOrderReturn/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\deliveryReturn\\selfOrderReturn",
+			"expectedMdName": "自发货退货.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["自发货退货.md"]
+		},
+		{
+			"id": 10909,
+			"name": "平台退货单",
+			"path": "/integrations/deliveryReturn/platformReturn/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\deliveryReturn\\platformReturn",
+			"expectedMdName": "平台退货单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["退货-平台退货单.md"]
+		},
+		{
+			"id": 11028,
+			"name": "物流费用集成",
+			"path": "/integrations/logisticsCostIntegration/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\logisticsCostIntegration",
+			"expectedMdName": "物流费用集成.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 11029,
+			"name": "头程预估物流费用",
+			"path": "/integrations/logisticsCostIntegration/firstLogisticsEstimated/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\logisticsCostIntegration\\firstLogisticsEstimated",
+			"expectedMdName": "头程预估物流费用.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 11038,
+			"name": "尾程预估物流费用",
+			"path": "/integrations/logisticsCostIntegration/secondLogisticsEstimated/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\logisticsCostIntegration\\secondLogisticsEstimated",
+			"expectedMdName": "尾程预估物流费用.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 9957,
+			"name": "法人主体",
+			"path": "/base/entity/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\base\\entity",
+			"expectedMdName": "法人主体.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["法人主体.md"]
+		},
+		{
+			"id": 10127,
+			"name": "供应商管理",
+			"path": "/base/supplier/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\base\\supplier",
+			"expectedMdName": "供应商管理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["供应商管理.md"]
+		},
+		{
+			"id": 10133,
+			"name": "店铺管理",
+			"path": "/base/store/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\base\\store",
+			"expectedMdName": "店铺管理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["店铺.md"]
+		},
+		{
+			"id": 10435,
+			"name": "汇率管理",
+			"path": "/base/exchangeRate/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\base\\exchangeRate",
+			"expectedMdName": "汇率管理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["汇率管理.md"]
+		},
+		{
+			"id": 9983,
+			"name": "销售计划",
+			"path": "/sales/salesPlan/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\sales\\salesPlan",
+			"expectedMdName": "销售计划.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["销售计划.md"]
+		},
+		{
+			"id": 10486,
+			"name": "物流异常信息处理",
+			"path": "/toolView/logisticsError/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\toolView\\logisticsError",
+			"expectedMdName": "物流异常信息处理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["物流异常信息处理.md"]
+		},
+		{
+			"id": 10000,
+			"name": "tiktok达人管理",
+			"path": "/tiktok/cooperation/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\tiktok\\cooperation",
+			"expectedMdName": "tiktok达人管理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["达人管理.md"]
+		},
+		{
+			"id": 10001,
+			"name": "tiktok达人内容追踪",
+			"path": "/tiktok/influencerInfo/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\tiktok\\influencerInfo",
+			"expectedMdName": "tiktok达人内容追踪.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": true,
+			"mdFiles": ["达人内容追踪.md"]
+		},
+		{
+			"id": 10562,
+			"name": "模板文件",
+			"path": "/template/base/curd/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\template\\base\\curd",
+			"expectedMdName": "模板文件.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		}
+	],
+	"missingMdRoutes": [
+		{
+			"id": 2910,
+			"name": "行政区划",
+			"path": "/admin/sysArea/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\admin\\sysArea",
+			"expectedMdName": "行政区划.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 10251,
+			"name": "飞书消息回调",
+			"path": "/feishuCallback/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\feishuCallback",
+			"expectedMdName": "飞书消息回调.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 9070,
+			"name": "数据表管理",
+			"path": "/gen/create-table/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\gen\\create-table",
+			"expectedMdName": "数据表管理.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 10505,
+			"name": "头程调拨详情",
+			"path": "/materialFlow/firstMileLogistics/showInfo/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\firstMileLogistics\\showInfo",
+			"expectedMdName": "头程调拨详情.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 10510,
+			"name": "二程调拨详情",
+			"path": "/materialFlow/secondMileLogistics/showInfo/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\materialFlow\\secondMileLogistics\\showInfo",
+			"expectedMdName": "二程调拨详情.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 11022,
+			"name": "仓库库龄",
+			"path": "/warehouse/stockManage/stockAge/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockManage\\stockAge",
+			"expectedMdName": "仓库库龄.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 11025,
+			"name": "公司库龄",
+			"path": "/warehouse/stockManage/companyAge/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\warehouse\\stockManage\\companyAge",
+			"expectedMdName": "公司库龄.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 11066,
+			"name": "卧式调查问卷",
+			"path": "/board/questionnaire/bedroomSurveyQuestionnaire/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\board\\questionnaire\\bedroomSurveyQuestionnaire",
+			"expectedMdName": "卧式调查问卷.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 10784,
+			"name": "平台仓货件单",
+			"path": "/integrations/platformOverseasReceipt/platformCargoList/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\platformOverseasReceipt\\platformCargoList",
+			"expectedMdName": "平台仓货件单.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 11028,
+			"name": "物流费用集成",
+			"path": "/integrations/logisticsCostIntegration/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\logisticsCostIntegration",
+			"expectedMdName": "物流费用集成.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 11029,
+			"name": "头程预估物流费用",
+			"path": "/integrations/logisticsCostIntegration/firstLogisticsEstimated/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\logisticsCostIntegration\\firstLogisticsEstimated",
+			"expectedMdName": "头程预估物流费用.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 11038,
+			"name": "尾程预估物流费用",
+			"path": "/integrations/logisticsCostIntegration/secondLogisticsEstimated/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\integrations\\logisticsCostIntegration\\secondLogisticsEstimated",
+			"expectedMdName": "尾程预估物流费用.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		},
+		{
+			"id": 10562,
+			"name": "模板文件",
+			"path": "/template/base/curd/index",
+			"menuType": "0",
+			"localDir": "d:\\Ugit\\qianyi-ui\\src\\views\\template\\base\\curd",
+			"expectedMdName": "模板文件.md",
+			"isChineseMdName": true,
+			"localDirExists": true,
+			"mdExists": false,
+			"mdFiles": []
+		}
+	]
+}

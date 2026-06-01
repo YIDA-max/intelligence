@@ -1,0 +1,69 @@
+.map-container{ position:relative; width:100%; height:calc(100vh - 100px); background:#fff }
+#map{ width:100%; height:100% }
+.search-panel{ position:absolute; top:20px; left:20px; z-index:1000; background:#fff; padding:20px; border-radius:4px; box-shadow:0 2px 8px rgba(0,0,0,.15); min-width:400px; max-width:500px; max-height:calc(100vh - 80px); overflow-y:auto }
+.search-row{ display:flex; align-items:center; gap:12px; margin-bottom:16px }
+.search-row:last-child{ margin-bottom:0 }
+.search-label{ min-width:80px; font-size:14px; color:#333 }
+.search-row .el-date-editor{ flex:1 }
+.search-row .el-input{ flex:1 }
+.search-input-group{ display:flex; flex:1; gap:0 }
+.search-input-group .el-select{ width:100px; flex-shrink:0 }
+.search-input-group .el-select:deep(.el-input__wrapper){ border-top-right-radius:0; border-bottom-right-radius:0 }
+.search-input-group .el-input{ flex:1 }
+.search-input-group .el-input:deep(.el-input__wrapper){ border-top-left-radius:0; border-bottom-left-radius:0; border-left:0 }
+.ship-info-window{ font-family:"Microsoft YaHei",Arial,sans-serif; min-width:400px }
+.bold{ font-weight:bold }
+.ship-name{ font-size:18px; font-weight:bold; color:#333; padding:0 20px 10px 20px; border-bottom:1px solid #ccc }
+.progress-container{ padding:20px; background:#fff; border-radius:4px }
+.progress-header{ margin-bottom:15px }
+.progress-header-line{ display:flex; justify-content:space-between; align-items:center; width:100% }
+.port-label{ font-size:14px; color:#333 }
+.port-info{ display:flex; flex-direction:column; align-items:center }
+.progress-header-line-content{ margin:10px 0 }
+.port-circle{ width:12px; height:12px; border-radius:50%; border:1px solid #f59b26; padding:6px }
+.port-circle-inner{ width:100%; height:100%; background:#f59b26; border-radius:50% }
+.time-label{ font-size:12px; color:#333; margin-top:5px }
+.progress-line{ display:flex; align-items:center; flex:1 }
+.progress-line-bar{ flex:1; height:2px; border-top:2px dashed hsla(0,0%,80%,.8); position:relative }
+.status-badge{ position:absolute; left:50%; transform:translateX(-50%) translateY(-50%); padding:4px 12px; background:#fff; border-radius:4px; font-size:12px; color:#f59b26; border:1px solid #f59b26; white-space:nowrap }
+.containers-header{ background:#f5f5f5; padding:8px 24px; font-size:14px; color:#303133; margin-bottom:0; display:flex; justify-content:space-between; align-items:center; font-weight:bold }
+.sku-label{ flex:2 }
+.sku-quantity{ flex:1 }
+.container-item{ border-bottom:1px solid #e0e0e0; cursor:pointer }
+.container-item-wrapper{ display:flex; justify-content:space-between; align-items:center }
+.container-header{ display:flex; align-items:center; padding:12px 0; transition:background .2s }
+.container-header:hover{ background:#f9f9f9 }
+.expand-icon{ width:20px; height:20px; display:flex; align-items:center; justify-content:center; background:#fff; border:1px solid #4285f4; color:#4285f4; font-weight:bold; margin-right:10px; font-size:18px; border-radius:2px }
+.container-number{ font-size:14px; color:#333 }
+.container-details{ padding:0 12px 12px 52px; display:none }
+.container-details.expanded{ display:block }
+.table-container{ max-height:300px; overflow-y:auto }
+.details-header{ display:flex; justify-content:space-between; font-size:13px; color:#303133; font-weight:bold }
+.sku-row{ display:flex; justify-content:space-between; padding:8px 0px; font-size:13px; color:#303133 }
+.sku-row-p{ padding:8px 24px }
+.sku-row:last-child{ border-bottom:none }
+.ship-route-timeline{ font-family:"Microsoft YaHei",Arial,sans-serif; padding:20px; background:#fff }
+.route-ship-name{ font-size:20px; font-weight:bold; color:#333; margin-bottom:8px }
+.route-departure-time{ font-size:14px; color:#333 }
+.route-stops-container{ margin-top:20px }
+.route-stop-item{ display:flex; position:relative }
+.route-stop-item:last-child{ margin-bottom:0 }
+.route-stop-icon{ position:relative; display:flex; flex-direction:column; align-items:center; margin-right:16px }
+.route-stop-circle{ width:16px; height:16px; border-radius:50%; background:#fff; border:3px solid #ff8c00; position:relative; z-index:2; flex-shrink:0 }
+.route-stop-circle::after{ content:""; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:8px; height:8px; border-radius:50%; background:#ff8c00 }
+.route-stop-line{ width:2px; flex:1; background:#e0e0e0; min-height:40px; margin-top:4px }
+.route-stop-content{ flex:1; padding-bottom:8px }
+.route-stop-port{ font-size:14px; color:#333; font-weight:500; margin-bottom:8px; line-height:1.5 }
+.route-stop-times{ display:flex; flex-direction:column; gap:4px }
+.route-time{ font-size:12px; color:#333; line-height:1.4 }
+.route-info-panel{ margin-top:16px; padding-top:16px; border-top:1px solid #e0e0e0 }
+.route-info-panel .ship-route-timeline{ padding:0 }
+.route-info-panel .route-header{ display:flex; justify-content:space-between; align-items:center }
+.route-info-panel .route-ship-name{ font-size:16px }
+.route-info-panel .route-departure-time{ font-size:13px }
+.info-window-panel{ position:absolute; top:20px; right:20px; z-index:1000; background:#fff; border-radius:4px; box-shadow:0 2px 12px rgba(0,0,0,.15); min-width:400px; max-width:500px; max-height:calc(100vh - 80px); display:flex; flex-direction:column; padding:10px }
+.info-window-header{ display:flex; justify-content:space-between; align-items:center; padding:12px 20px; border-bottom:1px solid #e0e0e0 }
+.info-window-title{ font-size:16px; font-weight:bold; color:#333 }
+.info-window-close{ cursor:pointer; font-size:18px; color:#909399; transition:color .2s }
+.info-window-close:hover{ color:#303133 }
+.info-window-body{ padding:0; overflow-y:auto; flex:1 }

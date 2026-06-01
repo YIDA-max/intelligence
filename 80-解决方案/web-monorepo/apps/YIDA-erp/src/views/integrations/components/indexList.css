@@ -1,0 +1,2 @@
+.goods-list{ padding:8px; line-height:2; background-color:rgba(250,235,215,.4509803922); border-bottom:1px solid #e5e7eb }
+.goods-list:last-child{ border-bottom:none }

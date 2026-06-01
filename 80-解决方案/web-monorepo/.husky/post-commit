@@ -1,0 +1,36 @@
+#!/usr/bin/env sh
+
+[ -f "$(dirname "$0")/common.sh" ] && . "$(dirname "$0")/common.sh"
+[ -f "$(dirname "$0")/op-log.sh" ] && . "$(dirname "$0")/op-log.sh"
+
+[ -n "$CI" ] && exit 0
+
+PATH="/usr/local/bin:$PATH"
+
+commit_hash="$(git rev-parse --short HEAD 2>/dev/null || printf 'UNKNOWN')"
+commit_subject="$(git log -1 --pretty=%s 2>/dev/null || printf '')"
+current_branch="$(git symbolic-ref --short -q HEAD 2>/dev/null || printf 'DETACHED')"
+changed_files="$(git show --pretty=format: --name-only HEAD 2>/dev/null | sed '/^$/d')"
+
+has_conflict='no'
+if command -v read_merge_meta_value >/dev/null 2>&1; then
+	meta_conflict="$(read_merge_meta_value 'has_conflict' 2>/dev/null || printf '')"
+	if [ "$meta_conflict" = 'yes' ]; then
+		has_conflict='yes'
+	fi
+fi
+
+if [ -z "$changed_files" ]; then
+	changed_files='(无文件变更)'
+else
+	changed_files="$(printf '%s\n' "$changed_files" | sed 's/^/- /')"
+fi
+
+append_operation_log 'COMMIT' "提交分支: $current_branch
+提交哈希: $commit_hash
+提交标题: $commit_subject
+是否发生冲突: $has_conflict
+变更文件:
+$changed_files"
+
+exit 0

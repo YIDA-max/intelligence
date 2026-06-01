@@ -1,0 +1,27 @@
+{
+	"mcpServers": {
+		"user-MySQL": {
+			"command": "npx",
+			"args": ["-y", "@benborla29/mcp-server-mysql"],
+			"env": {
+				"MYSQL_HOST": "192.168.200.88",
+				"MYSQL_PORT": "13306",
+				"MYSQL_USER": "user",
+
+				"MYSQL_PASS": "__REPLACE_ME__",
+				"MYSQL_PASSWORD": "__REPLACE_ME__",
+
+				"MYSQL_DB": "qianyi_product",
+				"MYSQL_DATABASE": "qianyi_product",
+
+				"ALLOW_INSERT_OPERATION": "false",
+				"ALLOW_UPDATE_OPERATION": "false",
+				"ALLOW_DELETE_OPERATION": "false"
+			}
+		},
+		"browser-tools": {
+			"command": "npx",
+			"args": ["-y", "@agentdeskai/browser-tools-mcp@latest"]
+		}
+	}
+}

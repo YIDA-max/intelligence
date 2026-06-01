@@ -1,0 +1,9 @@
+.goods-list {
+	padding: 8px;
+	line-height: 2;
+  background-color: #faebd773;
+  border-bottom: 1px solid #e5e7eb;
+	&:last-child {
+		border-bottom: none;
+	}
+}
