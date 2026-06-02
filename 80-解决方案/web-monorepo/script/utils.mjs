@@ -7,7 +7,7 @@ import prompts from 'prompts';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
-const WORKSPACE_DIRS = ['apps', 'packages', 'services'];
+const WORKSPACE_DIRS = ['apps/ui', 'packages', 'services/ui','apps/web', 'packages', 'services/web'];
 
 /**
  * 扫描 monorepo 工作区，找出包含指定 npm script 的包
